@@ -1,0 +1,3311 @@
+29.9866 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [2560, 1440]. Using actual size
+30.6846 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x10e558a90>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1124c8550>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2560, 1440]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+30.6847 	EXP 	window1: recordFrameIntervals = False
+30.8498 	EXP 	window1: recordFrameIntervals = True
+31.0335 	EXP 	window1: recordFrameIntervals = False
+31.1500 	EXP 	Created textTopLeft = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='textTopLeft', opacity=1.0, ori=0, pos=array([-0.55,  0.6 ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=0.75)
+31.1738 	EXP 	Created textTopRight = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='textTopRight', opacity=1.0, ori=0, pos=array([0.55, 0.6 ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=0.7)
+31.2230 	EXP 	Created ex_target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ex_target', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), size=array([0.17777778, 0.17777778]), texRes=128, units='height', win=Window(...))
+31.2260 	EXP 	Created ex_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ex_1', opacity=1.0, ori=0.0, pos=array([-0.7, -0.3]), size=array([0.17777778, 0.17777778]), texRes=128, units='height', win=Window(...))
+31.2289 	EXP 	Created ex_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ex_2', opacity=1.0, ori=0.0, pos=array([-0.35, -0.3 ]), size=array([0.17777778, 0.17777778]), texRes=128, units='height', win=Window(...))
+31.2318 	EXP 	Created ex_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ex_3', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.17777778, 0.17777778]), texRes=128, units='height', win=Window(...))
+31.2348 	EXP 	Created ex_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ex_4', opacity=1.0, ori=0.0, pos=array([ 0.35, -0.3 ]), size=array([0.17777778, 0.17777778]), texRes=128, units='height', win=Window(...))
+31.2377 	EXP 	Created ex_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ex_5', opacity=1.0, ori=0.0, pos=array([ 0.7, -0.3]), size=array([0.17777778, 0.17777778]), texRes=128, units='height', win=Window(...))
+31.2411 	EXP 	Created ex_num1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='ex_num1', opacity=1.0, ori=0, pos=array([-0.8 , -0.93]), rgb=array([255., 255., 255.]), text='1', units='norm', win=Window(...), wrapWidth=2)
+31.2455 	EXP 	Created ex_num2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='ex_num2', opacity=1.0, ori=0, pos=array([-0.4 , -0.93]), rgb=array([255., 255., 255.]), text='2', units='norm', win=Window(...), wrapWidth=2)
+31.2489 	EXP 	Created ex_num3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='ex_num3', opacity=1.0, ori=0, pos=array([ 0.  , -0.93]), rgb=array([255., 255., 255.]), text='3', units='norm', win=Window(...), wrapWidth=2)
+31.2527 	EXP 	Created ex_num4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='ex_num4', opacity=1.0, ori=0, pos=array([ 0.4 , -0.93]), rgb=array([255., 255., 255.]), text='4', units='norm', win=Window(...), wrapWidth=2)
+31.2555 	EXP 	Created ex_num5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='ex_num5', opacity=1.0, ori=0, pos=array([ 0.8 , -0.93]), rgb=array([255., 255., 255.]), text='5', units='norm', win=Window(...), wrapWidth=2)
+31.2622 	EXP 	Created ex_frame1 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=2, name='ex_frame1', opacity=1.0, ori=array(0.), pos=array([-0.7,  0. ]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+31.2635 	EXP 	Created ex_frame2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=2, name='ex_frame2', opacity=1.0, ori=array(0.), pos=array([-0.35,  0.  ]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+31.2648 	EXP 	Created ex_frame3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=2, name='ex_frame3', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+31.2661 	EXP 	Created ex_frame4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=2, name='ex_frame4', opacity=1.0, ori=array(0.), pos=array([0.35, 0.  ]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+31.2674 	EXP 	Created ex_frame5 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=2, name='ex_frame5', opacity=1.0, ori=array(0.), pos=array([0.7, 0. ]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+31.2773 	EXP 	Created ex_f1_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ex_f1_text', opacity=1.0, ori=0, pos=array([-0.78,  0.  ]), rgb=array([255., 255., 255.]), text='am\nunähnlichsten', units='norm', win=Window(...), wrapWidth=1)
+31.2823 	EXP 	Created ex_f5_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ex_f5_text', opacity=1.0, ori=0, pos=array([0.78, 0.  ]), rgb=array([255., 255., 255.]), text='am\nähnlichsten', units='norm', win=Window(...), wrapWidth=1)
+31.2843 	EXP 	Created target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='target', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), size=array([0.17777778, 0.17777778]), texRes=128, units='height', win=Window(...))
+31.2862 	EXP 	Created im_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='im_1', opacity=1.0, ori=0.0, pos=array([-0.7, -0.3]), size=array([0.17777778, 0.17777778]), texRes=128, units='height', win=Window(...))
+31.2882 	EXP 	Created im_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='im_2', opacity=1.0, ori=0.0, pos=array([-0.35, -0.3 ]), size=array([0.17777778, 0.17777778]), texRes=128, units='height', win=Window(...))
+31.2900 	EXP 	Created im_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='im_3', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.17777778, 0.17777778]), texRes=128, units='height', win=Window(...))
+31.2918 	EXP 	Created im_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='im_4', opacity=1.0, ori=0.0, pos=array([ 0.35, -0.3 ]), size=array([0.17777778, 0.17777778]), texRes=128, units='height', win=Window(...))
+31.2935 	EXP 	Created im_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='im_5', opacity=1.0, ori=0.0, pos=array([ 0.7, -0.3]), size=array([0.17777778, 0.17777778]), texRes=128, units='height', win=Window(...))
+31.2989 	EXP 	Created f1_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='f1_text', opacity=1.0, ori=0, pos=array([-0.78,  0.  ]), rgb=array([255., 255., 255.]), text='am\nunähnlichsten', units='norm', win=Window(...), wrapWidth=1)
+31.3041 	EXP 	Created f5_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='f5_text', opacity=1.0, ori=0, pos=array([0.78, 0.  ]), rgb=array([255., 255., 255.]), text='am\nähnlichsten', units='norm', win=Window(...), wrapWidth=1)
+31.3069 	EXP 	Created num1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='num1', opacity=1.0, ori=0, pos=array([-0.8 , -0.93]), rgb=array([255., 255., 255.]), text='1', units='norm', win=Window(...), wrapWidth=2)
+31.3096 	EXP 	Created num2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='num2', opacity=1.0, ori=0, pos=array([-0.4 , -0.93]), rgb=array([255., 255., 255.]), text='2', units='norm', win=Window(...), wrapWidth=2)
+31.3123 	EXP 	Created num3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='num3', opacity=1.0, ori=0, pos=array([ 0.  , -0.93]), rgb=array([255., 255., 255.]), text='3', units='norm', win=Window(...), wrapWidth=2)
+31.3150 	EXP 	Created num4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='num4', opacity=1.0, ori=0, pos=array([ 0.4 , -0.93]), rgb=array([255., 255., 255.]), text='4', units='norm', win=Window(...), wrapWidth=2)
+31.3177 	EXP 	Created num5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='num5', opacity=1.0, ori=0, pos=array([ 0.8 , -0.93]), rgb=array([255., 255., 255.]), text='5', units='norm', win=Window(...), wrapWidth=2)
+31.3190 	EXP 	Created frame1 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=2, name='frame1', opacity=1.0, ori=array(0.), pos=array([-0.7,  0. ]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+31.3203 	EXP 	Created frame2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=2, name='frame2', opacity=1.0, ori=array(0.), pos=array([-0.35,  0.  ]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+31.3216 	EXP 	Created frame3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=2, name='frame3', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+31.3229 	EXP 	Created frame4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=2, name='frame4', opacity=1.0, ori=array(0.), pos=array([0.35, 0.  ]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+31.3241 	EXP 	Created frame5 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=2, name='frame5', opacity=1.0, ori=array(0.), pos=array([0.7, 0. ]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+31.3503 	EXP 	Created endText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='endText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+31.3840 	EXP 	textTopLeft: autoDraw = True
+31.3840 	EXP 	textTopRight: autoDraw = True
+31.3840 	EXP 	ex_target: autoDraw = True
+31.3840 	EXP 	ex_1: autoDraw = True
+31.3840 	EXP 	ex_2: autoDraw = True
+31.3840 	EXP 	ex_3: autoDraw = True
+31.3840 	EXP 	ex_4: autoDraw = True
+31.3840 	EXP 	ex_5: autoDraw = True
+31.3840 	EXP 	ex_frame1: autoDraw = True
+31.3840 	EXP 	ex_frame2: autoDraw = True
+31.3840 	EXP 	ex_frame3: autoDraw = True
+31.3840 	EXP 	ex_frame4: autoDraw = True
+31.3840 	EXP 	ex_frame5: autoDraw = True
+31.3840 	EXP 	ex_f1_text: autoDraw = True
+31.3840 	EXP 	ex_f5_text: autoDraw = True
+31.3840 	EXP 	ex_num1: autoDraw = True
+31.3840 	EXP 	ex_num2: autoDraw = True
+31.3840 	EXP 	ex_num3: autoDraw = True
+31.3840 	EXP 	ex_num4: autoDraw = True
+31.3840 	EXP 	ex_num5: autoDraw = True
+55.3696 	DATA 	Keypress: num_3
+55.3997 	EXP 	ex_3: pos = array([-0.7,  0. ])
+55.3997 	EXP 	ex_3: autoDraw = True
+84.6883 	DATA 	Keypress: num_1
+84.7226 	EXP 	ex_1: pos = array([-0.35,  0.  ])
+84.7226 	EXP 	ex_1: autoDraw = True
+85.5690 	DATA 	Keypress: num_2
+85.5903 	EXP 	ex_2: pos = array([0., 0.])
+85.5903 	EXP 	ex_2: autoDraw = True
+88.1443 	DATA 	Keypress: num_4
+88.1771 	EXP 	ex_4: pos = array([0.35, 0.  ])
+88.1771 	EXP 	ex_4: autoDraw = True
+88.7602 	DATA 	Keypress: num_5
+88.7946 	EXP 	ex_5: pos = array([0.7, 0. ])
+88.7946 	EXP 	ex_5: autoDraw = True
+90.0723 	DATA 	Keypress: space
+90.0940 	EXP 	Imported conditions/conditions.xlsx as conditions, 50 conditions, 6 params
+90.0946 	EXP 	Created sequence: random, trialTypes=50, nReps=1, seed=None
+90.0950 	EXP 	New trial (rep=0, index=0): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original038.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated038.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated038.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated038.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated038.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated038.png')])
+90.1463 	EXP 	textTopLeft: autoDraw = False
+90.1463 	EXP 	textTopRight: autoDraw = False
+90.1463 	EXP 	ex_target: autoDraw = False
+90.1463 	EXP 	ex_1: autoDraw = False
+90.1463 	EXP 	ex_2: autoDraw = False
+90.1463 	EXP 	ex_3: autoDraw = False
+90.1463 	EXP 	ex_4: autoDraw = False
+90.1463 	EXP 	ex_5: autoDraw = False
+90.1463 	EXP 	ex_frame1: autoDraw = False
+90.1463 	EXP 	ex_frame2: autoDraw = False
+90.1463 	EXP 	ex_frame3: autoDraw = False
+90.1463 	EXP 	ex_frame4: autoDraw = False
+90.1463 	EXP 	ex_frame5: autoDraw = False
+90.1463 	EXP 	ex_f1_text: autoDraw = False
+90.1463 	EXP 	ex_f5_text: autoDraw = False
+90.1463 	EXP 	ex_num1: autoDraw = False
+90.1463 	EXP 	ex_num2: autoDraw = False
+90.1463 	EXP 	ex_num3: autoDraw = False
+90.1463 	EXP 	ex_num4: autoDraw = False
+90.1463 	EXP 	ex_num5: autoDraw = False
+90.1463 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original038.png'
+90.1463 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated038.png'
+90.1463 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated038.png'
+90.1463 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated038.png'
+90.1463 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated038.png'
+90.1463 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated038.png'
+90.1463 	EXP 	im_1: pos = array([ 0.35, -0.3 ])
+90.1463 	EXP 	im_2: pos = array([-0.7, -0.3])
+90.1463 	EXP 	im_3: pos = array([ 0.7, -0.3])
+90.1463 	EXP 	im_4: pos = array([-0.35, -0.3 ])
+90.1463 	EXP 	im_5: pos = array([ 0. , -0.3])
+90.1463 	EXP 	target: autoDraw = True
+90.1463 	EXP 	im_1: autoDraw = True
+90.1463 	EXP 	im_2: autoDraw = True
+90.1463 	EXP 	im_3: autoDraw = True
+90.1463 	EXP 	im_4: autoDraw = True
+90.1463 	EXP 	im_5: autoDraw = True
+90.1463 	EXP 	frame1: autoDraw = True
+90.1463 	EXP 	frame2: autoDraw = True
+90.1463 	EXP 	frame3: autoDraw = True
+90.1463 	EXP 	frame4: autoDraw = True
+90.1463 	EXP 	frame5: autoDraw = True
+90.1463 	EXP 	f1_text: autoDraw = True
+90.1463 	EXP 	f5_text: autoDraw = True
+90.1463 	EXP 	num1: autoDraw = True
+90.1463 	EXP 	num2: autoDraw = True
+90.1463 	EXP 	num3: autoDraw = True
+90.1463 	EXP 	num4: autoDraw = True
+90.1463 	EXP 	num5: autoDraw = True
+131.0243 	DATA 	Keypress: num_3
+131.0512 	EXP 	im_5: pos = array([-0.7,  0. ])
+131.0512 	EXP 	im_5: autoDraw = True
+134.5051 	DATA 	Keypress: num_4
+134.5399 	EXP 	im_1: pos = array([-0.35,  0.  ])
+134.5399 	EXP 	im_1: autoDraw = True
+137.7843 	DATA 	Keypress: num_5
+137.8110 	EXP 	im_3: pos = array([0., 0.])
+137.8110 	EXP 	im_3: autoDraw = True
+140.2562 	DATA 	Keypress: num_1
+140.2976 	EXP 	im_2: pos = array([0.35, 0.  ])
+140.2976 	EXP 	im_2: autoDraw = True
+140.4640 	DATA 	Keypress: num_2
+140.4979 	EXP 	im_4: pos = array([0.7, 0. ])
+140.4979 	EXP 	im_4: autoDraw = True
+141.8242 	DATA 	Keypress: space
+141.8258 	EXP 	New trial (rep=0, index=1): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original045.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated045.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated045.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated045.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated045.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated045.png')])
+141.8663 	EXP 	target: autoDraw = False
+141.8663 	EXP 	im_1: autoDraw = False
+141.8663 	EXP 	im_2: autoDraw = False
+141.8663 	EXP 	im_3: autoDraw = False
+141.8663 	EXP 	im_4: autoDraw = False
+141.8663 	EXP 	im_5: autoDraw = False
+141.8663 	EXP 	frame1: autoDraw = False
+141.8663 	EXP 	frame2: autoDraw = False
+141.8663 	EXP 	frame3: autoDraw = False
+141.8663 	EXP 	frame4: autoDraw = False
+141.8663 	EXP 	frame5: autoDraw = False
+141.8663 	EXP 	f1_text: autoDraw = False
+141.8663 	EXP 	f5_text: autoDraw = False
+141.8663 	EXP 	num1: autoDraw = False
+141.8663 	EXP 	num2: autoDraw = False
+141.8663 	EXP 	num3: autoDraw = False
+141.8663 	EXP 	num4: autoDraw = False
+141.8663 	EXP 	num5: autoDraw = False
+141.8663 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original045.png'
+141.8663 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated045.png'
+141.8663 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated045.png'
+141.8663 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated045.png'
+141.8663 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated045.png'
+141.8663 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated045.png'
+141.8663 	EXP 	im_1: pos = array([ 0. , -0.3])
+141.8663 	EXP 	im_2: pos = array([ 0.7, -0.3])
+141.8663 	EXP 	im_3: pos = array([-0.35, -0.3 ])
+141.8663 	EXP 	im_4: pos = array([ 0.35, -0.3 ])
+141.8663 	EXP 	im_5: pos = array([-0.7, -0.3])
+141.8663 	EXP 	target: autoDraw = True
+141.8663 	EXP 	im_1: autoDraw = True
+141.8663 	EXP 	im_2: autoDraw = True
+141.8663 	EXP 	im_3: autoDraw = True
+141.8663 	EXP 	im_4: autoDraw = True
+141.8663 	EXP 	im_5: autoDraw = True
+141.8663 	EXP 	frame1: autoDraw = True
+141.8663 	EXP 	frame2: autoDraw = True
+141.8663 	EXP 	frame3: autoDraw = True
+141.8663 	EXP 	frame4: autoDraw = True
+141.8663 	EXP 	frame5: autoDraw = True
+141.8663 	EXP 	f1_text: autoDraw = True
+141.8663 	EXP 	f5_text: autoDraw = True
+141.8663 	EXP 	num1: autoDraw = True
+141.8663 	EXP 	num2: autoDraw = True
+141.8663 	EXP 	num3: autoDraw = True
+141.8663 	EXP 	num4: autoDraw = True
+141.8663 	EXP 	num5: autoDraw = True
+144.7202 	DATA 	Keypress: num_3
+144.7536 	EXP 	im_1: pos = array([-0.7,  0. ])
+144.7536 	EXP 	im_1: autoDraw = True
+147.6003 	DATA 	Keypress: num_2
+147.6408 	EXP 	im_3: pos = array([-0.35,  0.  ])
+147.6408 	EXP 	im_3: autoDraw = True
+152.2562 	DATA 	Keypress: num_1
+152.2970 	EXP 	im_5: pos = array([0., 0.])
+152.2970 	EXP 	im_5: autoDraw = True
+153.2641 	DATA 	Keypress: num_4
+153.2985 	EXP 	im_4: pos = array([0.35, 0.  ])
+153.2985 	EXP 	im_4: autoDraw = True
+153.8570 	DATA 	Keypress: num_5
+153.8824 	EXP 	im_2: pos = array([0.7, 0. ])
+153.8824 	EXP 	im_2: autoDraw = True
+154.9282 	DATA 	Keypress: space
+154.9294 	EXP 	New trial (rep=0, index=2): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original003.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated003.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated003.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated003.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated003.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated003.png')])
+154.9840 	EXP 	target: autoDraw = False
+154.9840 	EXP 	im_1: autoDraw = False
+154.9840 	EXP 	im_2: autoDraw = False
+154.9840 	EXP 	im_3: autoDraw = False
+154.9840 	EXP 	im_4: autoDraw = False
+154.9840 	EXP 	im_5: autoDraw = False
+154.9840 	EXP 	frame1: autoDraw = False
+154.9840 	EXP 	frame2: autoDraw = False
+154.9840 	EXP 	frame3: autoDraw = False
+154.9840 	EXP 	frame4: autoDraw = False
+154.9840 	EXP 	frame5: autoDraw = False
+154.9840 	EXP 	f1_text: autoDraw = False
+154.9840 	EXP 	f5_text: autoDraw = False
+154.9840 	EXP 	num1: autoDraw = False
+154.9840 	EXP 	num2: autoDraw = False
+154.9840 	EXP 	num3: autoDraw = False
+154.9840 	EXP 	num4: autoDraw = False
+154.9840 	EXP 	num5: autoDraw = False
+154.9840 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original003.png'
+154.9840 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated003.png'
+154.9840 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated003.png'
+154.9840 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated003.png'
+154.9840 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated003.png'
+154.9840 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated003.png'
+154.9840 	EXP 	im_1: pos = array([-0.35, -0.3 ])
+154.9840 	EXP 	im_2: pos = array([-0.7, -0.3])
+154.9840 	EXP 	im_3: pos = array([ 0.35, -0.3 ])
+154.9840 	EXP 	im_4: pos = array([ 0. , -0.3])
+154.9840 	EXP 	im_5: pos = array([ 0.7, -0.3])
+154.9840 	EXP 	target: autoDraw = True
+154.9840 	EXP 	im_1: autoDraw = True
+154.9840 	EXP 	im_2: autoDraw = True
+154.9840 	EXP 	im_3: autoDraw = True
+154.9840 	EXP 	im_4: autoDraw = True
+154.9840 	EXP 	im_5: autoDraw = True
+154.9840 	EXP 	frame1: autoDraw = True
+154.9840 	EXP 	frame2: autoDraw = True
+154.9840 	EXP 	frame3: autoDraw = True
+154.9840 	EXP 	frame4: autoDraw = True
+154.9840 	EXP 	frame5: autoDraw = True
+154.9840 	EXP 	f1_text: autoDraw = True
+154.9840 	EXP 	f5_text: autoDraw = True
+154.9840 	EXP 	num1: autoDraw = True
+154.9840 	EXP 	num2: autoDraw = True
+154.9840 	EXP 	num3: autoDraw = True
+154.9840 	EXP 	num4: autoDraw = True
+154.9840 	EXP 	num5: autoDraw = True
+156.4963 	DATA 	Keypress: num_2
+156.5361 	EXP 	im_1: pos = array([-0.7,  0. ])
+156.5361 	EXP 	im_1: autoDraw = True
+159.0162 	DATA 	Keypress: num_1
+159.0562 	EXP 	im_2: pos = array([-0.35,  0.  ])
+159.0562 	EXP 	im_2: autoDraw = True
+160.1282 	DATA 	Keypress: num_3
+160.1575 	EXP 	im_4: pos = array([0., 0.])
+160.1575 	EXP 	im_4: autoDraw = True
+164.5762 	DATA 	Keypress: num_5
+164.6135 	EXP 	im_5: pos = array([0.35, 0.  ])
+164.6135 	EXP 	im_5: autoDraw = True
+164.9680 	DATA 	Keypress: num_4
+164.9974 	EXP 	im_3: pos = array([0.7, 0. ])
+164.9974 	EXP 	im_3: autoDraw = True
+166.2331 	DATA 	Keypress: space
+166.2352 	EXP 	New trial (rep=0, index=3): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original020.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated020.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated020.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated020.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated020.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated020.png')])
+166.2824 	EXP 	target: autoDraw = False
+166.2824 	EXP 	im_1: autoDraw = False
+166.2824 	EXP 	im_2: autoDraw = False
+166.2824 	EXP 	im_3: autoDraw = False
+166.2824 	EXP 	im_4: autoDraw = False
+166.2824 	EXP 	im_5: autoDraw = False
+166.2824 	EXP 	frame1: autoDraw = False
+166.2824 	EXP 	frame2: autoDraw = False
+166.2824 	EXP 	frame3: autoDraw = False
+166.2824 	EXP 	frame4: autoDraw = False
+166.2824 	EXP 	frame5: autoDraw = False
+166.2824 	EXP 	f1_text: autoDraw = False
+166.2824 	EXP 	f5_text: autoDraw = False
+166.2824 	EXP 	num1: autoDraw = False
+166.2824 	EXP 	num2: autoDraw = False
+166.2824 	EXP 	num3: autoDraw = False
+166.2824 	EXP 	num4: autoDraw = False
+166.2824 	EXP 	num5: autoDraw = False
+166.2824 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original020.png'
+166.2824 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated020.png'
+166.2824 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated020.png'
+166.2824 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated020.png'
+166.2824 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated020.png'
+166.2824 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated020.png'
+166.2824 	EXP 	im_1: pos = array([ 0.7, -0.3])
+166.2824 	EXP 	im_2: pos = array([ 0.35, -0.3 ])
+166.2824 	EXP 	im_3: pos = array([ 0. , -0.3])
+166.2824 	EXP 	im_4: pos = array([-0.7, -0.3])
+166.2824 	EXP 	im_5: pos = array([-0.35, -0.3 ])
+166.2824 	EXP 	target: autoDraw = True
+166.2824 	EXP 	im_1: autoDraw = True
+166.2824 	EXP 	im_2: autoDraw = True
+166.2824 	EXP 	im_3: autoDraw = True
+166.2824 	EXP 	im_4: autoDraw = True
+166.2824 	EXP 	im_5: autoDraw = True
+166.2824 	EXP 	frame1: autoDraw = True
+166.2824 	EXP 	frame2: autoDraw = True
+166.2824 	EXP 	frame3: autoDraw = True
+166.2824 	EXP 	frame4: autoDraw = True
+166.2824 	EXP 	frame5: autoDraw = True
+166.2824 	EXP 	f1_text: autoDraw = True
+166.2824 	EXP 	f5_text: autoDraw = True
+166.2824 	EXP 	num1: autoDraw = True
+166.2824 	EXP 	num2: autoDraw = True
+166.2824 	EXP 	num3: autoDraw = True
+166.2824 	EXP 	num4: autoDraw = True
+166.2824 	EXP 	num5: autoDraw = True
+167.9843 	DATA 	Keypress: num_1
+168.0181 	EXP 	im_4: pos = array([-0.7,  0. ])
+168.0181 	EXP 	im_4: autoDraw = True
+171.7123 	DATA 	Keypress: num_2
+171.7397 	EXP 	im_5: pos = array([-0.35,  0.  ])
+171.7397 	EXP 	im_5: autoDraw = True
+185.6883 	DATA 	Keypress: num_1
+186.3449 	DATA 	Keypress: num_1
+192.2322 	DATA 	Keypress: num_5
+192.2674 	EXP 	im_1: pos = array([0., 0.])
+192.2674 	EXP 	im_1: autoDraw = True
+195.4883 	DATA 	Keypress: num_3
+195.5216 	EXP 	im_3: pos = array([0.35, 0.  ])
+195.5216 	EXP 	im_3: autoDraw = True
+195.7689 	DATA 	Keypress: num_4
+195.8054 	EXP 	im_2: pos = array([0.7, 0. ])
+195.8054 	EXP 	im_2: autoDraw = True
+197.4242 	DATA 	Keypress: num_1
+197.7603 	DATA 	Keypress: num_2
+198.5839 	DATA 	Keypress: num_3
+200.5043 	DATA 	Keypress: space
+200.5057 	EXP 	New trial (rep=0, index=4): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original028.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated028.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated028.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated028.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated028.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated028.png')])
+200.5450 	EXP 	target: autoDraw = False
+200.5450 	EXP 	im_1: autoDraw = False
+200.5450 	EXP 	im_2: autoDraw = False
+200.5450 	EXP 	im_3: autoDraw = False
+200.5450 	EXP 	im_4: autoDraw = False
+200.5450 	EXP 	im_5: autoDraw = False
+200.5450 	EXP 	frame1: autoDraw = False
+200.5450 	EXP 	frame2: autoDraw = False
+200.5450 	EXP 	frame3: autoDraw = False
+200.5450 	EXP 	frame4: autoDraw = False
+200.5450 	EXP 	frame5: autoDraw = False
+200.5450 	EXP 	f1_text: autoDraw = False
+200.5450 	EXP 	f5_text: autoDraw = False
+200.5450 	EXP 	num1: autoDraw = False
+200.5450 	EXP 	num2: autoDraw = False
+200.5450 	EXP 	num3: autoDraw = False
+200.5450 	EXP 	num4: autoDraw = False
+200.5450 	EXP 	num5: autoDraw = False
+200.5450 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original028.png'
+200.5450 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated028.png'
+200.5450 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated028.png'
+200.5450 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated028.png'
+200.5450 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated028.png'
+200.5450 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated028.png'
+200.5450 	EXP 	im_1: pos = array([ 0. , -0.3])
+200.5450 	EXP 	im_2: pos = array([ 0.35, -0.3 ])
+200.5450 	EXP 	im_3: pos = array([-0.7, -0.3])
+200.5450 	EXP 	im_4: pos = array([-0.35, -0.3 ])
+200.5450 	EXP 	im_5: pos = array([ 0.7, -0.3])
+200.5450 	EXP 	target: autoDraw = True
+200.5450 	EXP 	im_1: autoDraw = True
+200.5450 	EXP 	im_2: autoDraw = True
+200.5450 	EXP 	im_3: autoDraw = True
+200.5450 	EXP 	im_4: autoDraw = True
+200.5450 	EXP 	im_5: autoDraw = True
+200.5450 	EXP 	frame1: autoDraw = True
+200.5450 	EXP 	frame2: autoDraw = True
+200.5450 	EXP 	frame3: autoDraw = True
+200.5450 	EXP 	frame4: autoDraw = True
+200.5450 	EXP 	frame5: autoDraw = True
+200.5450 	EXP 	f1_text: autoDraw = True
+200.5450 	EXP 	f5_text: autoDraw = True
+200.5450 	EXP 	num1: autoDraw = True
+200.5450 	EXP 	num2: autoDraw = True
+200.5450 	EXP 	num3: autoDraw = True
+200.5450 	EXP 	num4: autoDraw = True
+200.5450 	EXP 	num5: autoDraw = True
+204.8243 	DATA 	Keypress: num_3
+204.8508 	EXP 	im_1: pos = array([-0.7,  0. ])
+204.8508 	EXP 	im_1: autoDraw = True
+207.8722 	DATA 	Keypress: num_4
+207.9049 	EXP 	im_2: pos = array([-0.35,  0.  ])
+207.9049 	EXP 	im_2: autoDraw = True
+215.0003 	DATA 	Keypress: num_1
+215.0311 	EXP 	im_3: pos = array([0., 0.])
+215.0311 	EXP 	im_3: autoDraw = True
+217.6251 	DATA 	Keypress: num_5
+217.6680 	EXP 	im_5: pos = array([0.35, 0.  ])
+217.6680 	EXP 	im_5: autoDraw = True
+218.4080 	DATA 	Keypress: num_2
+218.4357 	EXP 	im_4: pos = array([0.7, 0. ])
+218.4357 	EXP 	im_4: autoDraw = True
+219.1441 	DATA 	Keypress: space
+219.1453 	EXP 	New trial (rep=0, index=5): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original026.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated026.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated026.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated026.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated026.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated026.png')])
+219.1867 	EXP 	target: autoDraw = False
+219.1867 	EXP 	im_1: autoDraw = False
+219.1867 	EXP 	im_2: autoDraw = False
+219.1867 	EXP 	im_3: autoDraw = False
+219.1867 	EXP 	im_4: autoDraw = False
+219.1867 	EXP 	im_5: autoDraw = False
+219.1867 	EXP 	frame1: autoDraw = False
+219.1867 	EXP 	frame2: autoDraw = False
+219.1867 	EXP 	frame3: autoDraw = False
+219.1867 	EXP 	frame4: autoDraw = False
+219.1867 	EXP 	frame5: autoDraw = False
+219.1867 	EXP 	f1_text: autoDraw = False
+219.1867 	EXP 	f5_text: autoDraw = False
+219.1867 	EXP 	num1: autoDraw = False
+219.1867 	EXP 	num2: autoDraw = False
+219.1867 	EXP 	num3: autoDraw = False
+219.1867 	EXP 	num4: autoDraw = False
+219.1867 	EXP 	num5: autoDraw = False
+219.1867 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original026.png'
+219.1867 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated026.png'
+219.1867 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated026.png'
+219.1867 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated026.png'
+219.1867 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated026.png'
+219.1867 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated026.png'
+219.1867 	EXP 	im_1: pos = array([-0.35, -0.3 ])
+219.1867 	EXP 	im_2: pos = array([-0.7, -0.3])
+219.1867 	EXP 	im_3: pos = array([ 0. , -0.3])
+219.1867 	EXP 	im_4: pos = array([ 0.7, -0.3])
+219.1867 	EXP 	im_5: pos = array([ 0.35, -0.3 ])
+219.1867 	EXP 	target: autoDraw = True
+219.1867 	EXP 	im_1: autoDraw = True
+219.1867 	EXP 	im_2: autoDraw = True
+219.1867 	EXP 	im_3: autoDraw = True
+219.1867 	EXP 	im_4: autoDraw = True
+219.1867 	EXP 	im_5: autoDraw = True
+219.1867 	EXP 	frame1: autoDraw = True
+219.1867 	EXP 	frame2: autoDraw = True
+219.1867 	EXP 	frame3: autoDraw = True
+219.1867 	EXP 	frame4: autoDraw = True
+219.1867 	EXP 	frame5: autoDraw = True
+219.1867 	EXP 	f1_text: autoDraw = True
+219.1867 	EXP 	f5_text: autoDraw = True
+219.1867 	EXP 	num1: autoDraw = True
+219.1867 	EXP 	num2: autoDraw = True
+219.1867 	EXP 	num3: autoDraw = True
+219.1867 	EXP 	num4: autoDraw = True
+219.1867 	EXP 	num5: autoDraw = True
+221.3444 	DATA 	Keypress: num_2
+221.3730 	EXP 	im_1: pos = array([-0.7,  0. ])
+221.3730 	EXP 	im_1: autoDraw = True
+229.4163 	DATA 	Keypress: num_3
+229.4504 	EXP 	im_3: pos = array([-0.35,  0.  ])
+229.4504 	EXP 	im_3: autoDraw = True
+229.8321 	DATA 	Keypress: num_5
+229.8510 	EXP 	im_4: pos = array([0., 0.])
+229.8510 	EXP 	im_4: autoDraw = True
+233.0963 	DATA 	Keypress: num_1
+233.1387 	EXP 	im_2: pos = array([0.35, 0.  ])
+233.1387 	EXP 	im_2: autoDraw = True
+235.0962 	DATA 	Keypress: num_4
+235.1248 	EXP 	im_5: pos = array([0.7, 0. ])
+235.1248 	EXP 	im_5: autoDraw = True
+235.8881 	DATA 	Keypress: space
+235.8895 	EXP 	New trial (rep=0, index=6): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original018.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated018.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated018.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated018.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated018.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated018.png')])
+235.9258 	EXP 	target: autoDraw = False
+235.9258 	EXP 	im_1: autoDraw = False
+235.9258 	EXP 	im_2: autoDraw = False
+235.9258 	EXP 	im_3: autoDraw = False
+235.9258 	EXP 	im_4: autoDraw = False
+235.9258 	EXP 	im_5: autoDraw = False
+235.9258 	EXP 	frame1: autoDraw = False
+235.9258 	EXP 	frame2: autoDraw = False
+235.9258 	EXP 	frame3: autoDraw = False
+235.9258 	EXP 	frame4: autoDraw = False
+235.9258 	EXP 	frame5: autoDraw = False
+235.9258 	EXP 	f1_text: autoDraw = False
+235.9258 	EXP 	f5_text: autoDraw = False
+235.9258 	EXP 	num1: autoDraw = False
+235.9258 	EXP 	num2: autoDraw = False
+235.9258 	EXP 	num3: autoDraw = False
+235.9258 	EXP 	num4: autoDraw = False
+235.9258 	EXP 	num5: autoDraw = False
+235.9258 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original018.png'
+235.9258 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated018.png'
+235.9258 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated018.png'
+235.9258 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated018.png'
+235.9258 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated018.png'
+235.9258 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated018.png'
+235.9258 	EXP 	im_1: pos = array([ 0.35, -0.3 ])
+235.9258 	EXP 	im_2: pos = array([ 0.7, -0.3])
+235.9258 	EXP 	im_3: pos = array([-0.7, -0.3])
+235.9258 	EXP 	im_4: pos = array([-0.35, -0.3 ])
+235.9258 	EXP 	im_5: pos = array([ 0. , -0.3])
+235.9258 	EXP 	target: autoDraw = True
+235.9258 	EXP 	im_1: autoDraw = True
+235.9258 	EXP 	im_2: autoDraw = True
+235.9258 	EXP 	im_3: autoDraw = True
+235.9258 	EXP 	im_4: autoDraw = True
+235.9258 	EXP 	im_5: autoDraw = True
+235.9258 	EXP 	frame1: autoDraw = True
+235.9258 	EXP 	frame2: autoDraw = True
+235.9258 	EXP 	frame3: autoDraw = True
+235.9258 	EXP 	frame4: autoDraw = True
+235.9258 	EXP 	frame5: autoDraw = True
+235.9258 	EXP 	f1_text: autoDraw = True
+235.9258 	EXP 	f5_text: autoDraw = True
+235.9258 	EXP 	num1: autoDraw = True
+235.9258 	EXP 	num2: autoDraw = True
+235.9258 	EXP 	num3: autoDraw = True
+235.9258 	EXP 	num4: autoDraw = True
+235.9258 	EXP 	num5: autoDraw = True
+238.2251 	DATA 	Keypress: num_4
+238.2623 	EXP 	im_1: pos = array([-0.7,  0. ])
+238.2623 	EXP 	im_1: autoDraw = True
+242.8963 	DATA 	Keypress: num_2
+242.9353 	EXP 	im_4: pos = array([-0.35,  0.  ])
+242.9353 	EXP 	im_4: autoDraw = True
+247.8242 	DATA 	Keypress: num_5
+247.8586 	EXP 	im_2: pos = array([0., 0.])
+247.8586 	EXP 	im_2: autoDraw = True
+248.3920 	DATA 	Keypress: num_1
+248.4260 	EXP 	im_3: pos = array([0.35, 0.  ])
+248.4260 	EXP 	im_3: autoDraw = True
+249.6242 	DATA 	Keypress: num_3
+249.6608 	EXP 	im_5: pos = array([0.7, 0. ])
+249.6608 	EXP 	im_5: autoDraw = True
+250.1689 	DATA 	Keypress: space
+250.1713 	EXP 	New trial (rep=0, index=7): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original029.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated029.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated029.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated029.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated029.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated029.png')])
+250.2116 	EXP 	target: autoDraw = False
+250.2116 	EXP 	im_1: autoDraw = False
+250.2116 	EXP 	im_2: autoDraw = False
+250.2116 	EXP 	im_3: autoDraw = False
+250.2116 	EXP 	im_4: autoDraw = False
+250.2116 	EXP 	im_5: autoDraw = False
+250.2116 	EXP 	frame1: autoDraw = False
+250.2116 	EXP 	frame2: autoDraw = False
+250.2116 	EXP 	frame3: autoDraw = False
+250.2116 	EXP 	frame4: autoDraw = False
+250.2116 	EXP 	frame5: autoDraw = False
+250.2116 	EXP 	f1_text: autoDraw = False
+250.2116 	EXP 	f5_text: autoDraw = False
+250.2116 	EXP 	num1: autoDraw = False
+250.2116 	EXP 	num2: autoDraw = False
+250.2116 	EXP 	num3: autoDraw = False
+250.2116 	EXP 	num4: autoDraw = False
+250.2116 	EXP 	num5: autoDraw = False
+250.2116 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original029.png'
+250.2116 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated029.png'
+250.2116 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated029.png'
+250.2116 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated029.png'
+250.2116 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated029.png'
+250.2116 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated029.png'
+250.2116 	EXP 	im_1: pos = array([-0.35, -0.3 ])
+250.2116 	EXP 	im_2: pos = array([ 0. , -0.3])
+250.2116 	EXP 	im_3: pos = array([ 0.7, -0.3])
+250.2116 	EXP 	im_4: pos = array([ 0.35, -0.3 ])
+250.2116 	EXP 	im_5: pos = array([-0.7, -0.3])
+250.2116 	EXP 	target: autoDraw = True
+250.2116 	EXP 	im_1: autoDraw = True
+250.2116 	EXP 	im_2: autoDraw = True
+250.2116 	EXP 	im_3: autoDraw = True
+250.2116 	EXP 	im_4: autoDraw = True
+250.2116 	EXP 	im_5: autoDraw = True
+250.2116 	EXP 	frame1: autoDraw = True
+250.2116 	EXP 	frame2: autoDraw = True
+250.2116 	EXP 	frame3: autoDraw = True
+250.2116 	EXP 	frame4: autoDraw = True
+250.2116 	EXP 	frame5: autoDraw = True
+250.2116 	EXP 	f1_text: autoDraw = True
+250.2116 	EXP 	f5_text: autoDraw = True
+250.2116 	EXP 	num1: autoDraw = True
+250.2116 	EXP 	num2: autoDraw = True
+250.2116 	EXP 	num3: autoDraw = True
+250.2116 	EXP 	num4: autoDraw = True
+250.2116 	EXP 	num5: autoDraw = True
+252.0323 	DATA 	Keypress: num_2
+252.0641 	EXP 	im_1: pos = array([-0.7,  0. ])
+252.0641 	EXP 	im_1: autoDraw = True
+254.1042 	DATA 	Keypress: num_3
+254.1336 	EXP 	im_2: pos = array([-0.35,  0.  ])
+254.1336 	EXP 	im_2: autoDraw = True
+257.0803 	DATA 	Keypress: num_5
+257.1208 	EXP 	im_3: pos = array([0., 0.])
+257.1208 	EXP 	im_3: autoDraw = True
+259.4562 	DATA 	Keypress: num_4
+259.4908 	EXP 	im_4: pos = array([0.35, 0.  ])
+259.4908 	EXP 	im_4: autoDraw = True
+260.0643 	DATA 	Keypress: num_1
+260.0914 	EXP 	im_5: pos = array([0.7, 0. ])
+260.0914 	EXP 	im_5: autoDraw = True
+260.8803 	DATA 	Keypress: space
+260.8817 	EXP 	New trial (rep=0, index=8): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original043.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated043.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated043.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated043.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated043.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated043.png')])
+260.9260 	EXP 	target: autoDraw = False
+260.9260 	EXP 	im_1: autoDraw = False
+260.9260 	EXP 	im_2: autoDraw = False
+260.9260 	EXP 	im_3: autoDraw = False
+260.9260 	EXP 	im_4: autoDraw = False
+260.9260 	EXP 	im_5: autoDraw = False
+260.9260 	EXP 	frame1: autoDraw = False
+260.9260 	EXP 	frame2: autoDraw = False
+260.9260 	EXP 	frame3: autoDraw = False
+260.9260 	EXP 	frame4: autoDraw = False
+260.9260 	EXP 	frame5: autoDraw = False
+260.9260 	EXP 	f1_text: autoDraw = False
+260.9260 	EXP 	f5_text: autoDraw = False
+260.9260 	EXP 	num1: autoDraw = False
+260.9260 	EXP 	num2: autoDraw = False
+260.9260 	EXP 	num3: autoDraw = False
+260.9260 	EXP 	num4: autoDraw = False
+260.9260 	EXP 	num5: autoDraw = False
+260.9260 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original043.png'
+260.9260 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated043.png'
+260.9260 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated043.png'
+260.9260 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated043.png'
+260.9260 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated043.png'
+260.9260 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated043.png'
+260.9260 	EXP 	im_1: pos = array([-0.7, -0.3])
+260.9260 	EXP 	im_2: pos = array([-0.35, -0.3 ])
+260.9260 	EXP 	im_3: pos = array([ 0.7, -0.3])
+260.9260 	EXP 	im_4: pos = array([ 0.35, -0.3 ])
+260.9260 	EXP 	im_5: pos = array([ 0. , -0.3])
+260.9260 	EXP 	target: autoDraw = True
+260.9260 	EXP 	im_1: autoDraw = True
+260.9260 	EXP 	im_2: autoDraw = True
+260.9260 	EXP 	im_3: autoDraw = True
+260.9260 	EXP 	im_4: autoDraw = True
+260.9260 	EXP 	im_5: autoDraw = True
+260.9260 	EXP 	frame1: autoDraw = True
+260.9260 	EXP 	frame2: autoDraw = True
+260.9260 	EXP 	frame3: autoDraw = True
+260.9260 	EXP 	frame4: autoDraw = True
+260.9260 	EXP 	frame5: autoDraw = True
+260.9260 	EXP 	f1_text: autoDraw = True
+260.9260 	EXP 	f5_text: autoDraw = True
+260.9260 	EXP 	num1: autoDraw = True
+260.9260 	EXP 	num2: autoDraw = True
+260.9260 	EXP 	num3: autoDraw = True
+260.9260 	EXP 	num4: autoDraw = True
+260.9260 	EXP 	num5: autoDraw = True
+262.1923 	DATA 	Keypress: num_1
+262.2278 	EXP 	im_1: pos = array([-0.7,  0. ])
+262.2278 	EXP 	im_1: autoDraw = True
+265.8962 	DATA 	Keypress: num_5
+265.9327 	EXP 	im_3: pos = array([-0.35,  0.  ])
+265.9327 	EXP 	im_3: autoDraw = True
+275.6483 	DATA 	Keypress: num_4
+275.6791 	EXP 	im_4: pos = array([0., 0.])
+275.6791 	EXP 	im_4: autoDraw = True
+279.2963 	DATA 	Keypress: num_3
+279.3340 	EXP 	im_5: pos = array([0.35, 0.  ])
+279.3340 	EXP 	im_5: autoDraw = True
+280.5362 	DATA 	Keypress: num_2
+280.5691 	EXP 	im_2: pos = array([0.7, 0. ])
+280.5691 	EXP 	im_2: autoDraw = True
+281.0963 	DATA 	Keypress: space
+281.0977 	EXP 	New trial (rep=0, index=9): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original016.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated016.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated016.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated016.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated016.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated016.png')])
+281.1364 	EXP 	target: autoDraw = False
+281.1364 	EXP 	im_1: autoDraw = False
+281.1364 	EXP 	im_2: autoDraw = False
+281.1364 	EXP 	im_3: autoDraw = False
+281.1364 	EXP 	im_4: autoDraw = False
+281.1364 	EXP 	im_5: autoDraw = False
+281.1364 	EXP 	frame1: autoDraw = False
+281.1364 	EXP 	frame2: autoDraw = False
+281.1364 	EXP 	frame3: autoDraw = False
+281.1364 	EXP 	frame4: autoDraw = False
+281.1364 	EXP 	frame5: autoDraw = False
+281.1364 	EXP 	f1_text: autoDraw = False
+281.1364 	EXP 	f5_text: autoDraw = False
+281.1364 	EXP 	num1: autoDraw = False
+281.1364 	EXP 	num2: autoDraw = False
+281.1364 	EXP 	num3: autoDraw = False
+281.1364 	EXP 	num4: autoDraw = False
+281.1364 	EXP 	num5: autoDraw = False
+281.1364 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original016.png'
+281.1364 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated016.png'
+281.1364 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated016.png'
+281.1364 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated016.png'
+281.1364 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated016.png'
+281.1364 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated016.png'
+281.1364 	EXP 	im_1: pos = array([ 0. , -0.3])
+281.1364 	EXP 	im_2: pos = array([-0.35, -0.3 ])
+281.1364 	EXP 	im_3: pos = array([-0.7, -0.3])
+281.1364 	EXP 	im_4: pos = array([ 0.35, -0.3 ])
+281.1364 	EXP 	im_5: pos = array([ 0.7, -0.3])
+281.1364 	EXP 	target: autoDraw = True
+281.1364 	EXP 	im_1: autoDraw = True
+281.1364 	EXP 	im_2: autoDraw = True
+281.1364 	EXP 	im_3: autoDraw = True
+281.1364 	EXP 	im_4: autoDraw = True
+281.1364 	EXP 	im_5: autoDraw = True
+281.1364 	EXP 	frame1: autoDraw = True
+281.1364 	EXP 	frame2: autoDraw = True
+281.1364 	EXP 	frame3: autoDraw = True
+281.1364 	EXP 	frame4: autoDraw = True
+281.1364 	EXP 	frame5: autoDraw = True
+281.1364 	EXP 	f1_text: autoDraw = True
+281.1364 	EXP 	f5_text: autoDraw = True
+281.1364 	EXP 	num1: autoDraw = True
+281.1364 	EXP 	num2: autoDraw = True
+281.1364 	EXP 	num3: autoDraw = True
+281.1364 	EXP 	num4: autoDraw = True
+281.1364 	EXP 	num5: autoDraw = True
+282.8802 	DATA 	Keypress: num_3
+282.9222 	EXP 	im_1: pos = array([-0.7,  0. ])
+282.9222 	EXP 	im_1: autoDraw = True
+286.7051 	DATA 	Keypress: num_4
+286.7440 	EXP 	im_4: pos = array([-0.35,  0.  ])
+286.7440 	EXP 	im_4: autoDraw = True
+288.8323 	DATA 	Keypress: num_1
+288.8634 	EXP 	im_3: pos = array([0., 0.])
+288.8634 	EXP 	im_3: autoDraw = True
+289.1042 	DATA 	Keypress: num_2
+289.1305 	EXP 	im_2: pos = array([0.35, 0.  ])
+289.1305 	EXP 	im_2: autoDraw = True
+290.0481 	DATA 	Keypress: num_5
+290.0818 	EXP 	im_5: pos = array([0.7, 0. ])
+290.0818 	EXP 	im_5: autoDraw = True
+290.6321 	DATA 	Keypress: space
+290.6333 	EXP 	New trial (rep=0, index=10): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original013.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated013.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated013.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated013.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated013.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated013.png')])
+290.6657 	EXP 	target: autoDraw = False
+290.6657 	EXP 	im_1: autoDraw = False
+290.6657 	EXP 	im_2: autoDraw = False
+290.6657 	EXP 	im_3: autoDraw = False
+290.6657 	EXP 	im_4: autoDraw = False
+290.6657 	EXP 	im_5: autoDraw = False
+290.6657 	EXP 	frame1: autoDraw = False
+290.6657 	EXP 	frame2: autoDraw = False
+290.6657 	EXP 	frame3: autoDraw = False
+290.6657 	EXP 	frame4: autoDraw = False
+290.6657 	EXP 	frame5: autoDraw = False
+290.6657 	EXP 	f1_text: autoDraw = False
+290.6657 	EXP 	f5_text: autoDraw = False
+290.6657 	EXP 	num1: autoDraw = False
+290.6657 	EXP 	num2: autoDraw = False
+290.6657 	EXP 	num3: autoDraw = False
+290.6657 	EXP 	num4: autoDraw = False
+290.6657 	EXP 	num5: autoDraw = False
+290.6657 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original013.png'
+290.6657 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated013.png'
+290.6657 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated013.png'
+290.6657 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated013.png'
+290.6657 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated013.png'
+290.6657 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated013.png'
+290.6657 	EXP 	im_1: pos = array([ 0. , -0.3])
+290.6657 	EXP 	im_2: pos = array([ 0.7, -0.3])
+290.6657 	EXP 	im_3: pos = array([-0.7, -0.3])
+290.6657 	EXP 	im_4: pos = array([ 0.35, -0.3 ])
+290.6657 	EXP 	im_5: pos = array([-0.35, -0.3 ])
+290.6657 	EXP 	target: autoDraw = True
+290.6657 	EXP 	im_1: autoDraw = True
+290.6657 	EXP 	im_2: autoDraw = True
+290.6657 	EXP 	im_3: autoDraw = True
+290.6657 	EXP 	im_4: autoDraw = True
+290.6657 	EXP 	im_5: autoDraw = True
+290.6657 	EXP 	frame1: autoDraw = True
+290.6657 	EXP 	frame2: autoDraw = True
+290.6657 	EXP 	frame3: autoDraw = True
+290.6657 	EXP 	frame4: autoDraw = True
+290.6657 	EXP 	frame5: autoDraw = True
+290.6657 	EXP 	f1_text: autoDraw = True
+290.6657 	EXP 	f5_text: autoDraw = True
+290.6657 	EXP 	num1: autoDraw = True
+290.6657 	EXP 	num2: autoDraw = True
+290.6657 	EXP 	num3: autoDraw = True
+290.6657 	EXP 	num4: autoDraw = True
+290.6657 	EXP 	num5: autoDraw = True
+293.4243 	DATA 	Keypress: num_3
+293.4529 	EXP 	im_1: pos = array([-0.7,  0. ])
+293.4529 	EXP 	im_1: autoDraw = True
+297.1522 	DATA 	Keypress: num_5
+297.1913 	EXP 	im_2: pos = array([-0.35,  0.  ])
+297.1913 	EXP 	im_2: autoDraw = True
+297.8241 	DATA 	Keypress: num_4
+297.8590 	EXP 	im_4: pos = array([0., 0.])
+297.8590 	EXP 	im_4: autoDraw = True
+300.1203 	DATA 	Keypress: num_1
+300.1619 	EXP 	im_3: pos = array([0.35, 0.  ])
+300.1619 	EXP 	im_3: autoDraw = True
+300.4561 	DATA 	Keypress: num_2
+300.4790 	EXP 	im_5: pos = array([0.7, 0. ])
+300.4790 	EXP 	im_5: autoDraw = True
+301.0242 	DATA 	Keypress: space
+301.0256 	EXP 	New trial (rep=0, index=11): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original044.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated044.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated044.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated044.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated044.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated044.png')])
+301.0631 	EXP 	target: autoDraw = False
+301.0631 	EXP 	im_1: autoDraw = False
+301.0631 	EXP 	im_2: autoDraw = False
+301.0631 	EXP 	im_3: autoDraw = False
+301.0631 	EXP 	im_4: autoDraw = False
+301.0631 	EXP 	im_5: autoDraw = False
+301.0631 	EXP 	frame1: autoDraw = False
+301.0631 	EXP 	frame2: autoDraw = False
+301.0631 	EXP 	frame3: autoDraw = False
+301.0631 	EXP 	frame4: autoDraw = False
+301.0631 	EXP 	frame5: autoDraw = False
+301.0631 	EXP 	f1_text: autoDraw = False
+301.0631 	EXP 	f5_text: autoDraw = False
+301.0631 	EXP 	num1: autoDraw = False
+301.0631 	EXP 	num2: autoDraw = False
+301.0631 	EXP 	num3: autoDraw = False
+301.0631 	EXP 	num4: autoDraw = False
+301.0631 	EXP 	num5: autoDraw = False
+301.0631 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original044.png'
+301.0631 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated044.png'
+301.0631 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated044.png'
+301.0631 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated044.png'
+301.0631 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated044.png'
+301.0631 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated044.png'
+301.0631 	EXP 	im_1: pos = array([ 0.7, -0.3])
+301.0631 	EXP 	im_2: pos = array([-0.7, -0.3])
+301.0631 	EXP 	im_3: pos = array([ 0. , -0.3])
+301.0631 	EXP 	im_4: pos = array([-0.35, -0.3 ])
+301.0631 	EXP 	im_5: pos = array([ 0.35, -0.3 ])
+301.0631 	EXP 	target: autoDraw = True
+301.0631 	EXP 	im_1: autoDraw = True
+301.0631 	EXP 	im_2: autoDraw = True
+301.0631 	EXP 	im_3: autoDraw = True
+301.0631 	EXP 	im_4: autoDraw = True
+301.0631 	EXP 	im_5: autoDraw = True
+301.0631 	EXP 	frame1: autoDraw = True
+301.0631 	EXP 	frame2: autoDraw = True
+301.0631 	EXP 	frame3: autoDraw = True
+301.0631 	EXP 	frame4: autoDraw = True
+301.0631 	EXP 	frame5: autoDraw = True
+301.0631 	EXP 	f1_text: autoDraw = True
+301.0631 	EXP 	f5_text: autoDraw = True
+301.0631 	EXP 	num1: autoDraw = True
+301.0631 	EXP 	num2: autoDraw = True
+301.0631 	EXP 	num3: autoDraw = True
+301.0631 	EXP 	num4: autoDraw = True
+301.0631 	EXP 	num5: autoDraw = True
+304.0562 	DATA 	Keypress: num_5
+304.0840 	EXP 	im_1: pos = array([-0.7,  0. ])
+304.0840 	EXP 	im_1: autoDraw = True
+307.5052 	DATA 	Keypress: num_3
+307.5386 	EXP 	im_3: pos = array([-0.35,  0.  ])
+307.5386 	EXP 	im_3: autoDraw = True
+312.0962 	DATA 	Keypress: num_4
+312.1280 	EXP 	im_5: pos = array([0., 0.])
+312.1280 	EXP 	im_5: autoDraw = True
+319.5203 	DATA 	Keypress: num_2
+319.5546 	EXP 	im_4: pos = array([0.35, 0.  ])
+319.5546 	EXP 	im_4: autoDraw = True
+319.9122 	DATA 	Keypress: num_1
+319.9384 	EXP 	im_2: pos = array([0.7, 0. ])
+319.9384 	EXP 	im_2: autoDraw = True
+320.7281 	DATA 	Keypress: space
+320.7295 	EXP 	New trial (rep=0, index=12): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original012.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated012.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated012.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated012.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated012.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated012.png')])
+320.7729 	EXP 	target: autoDraw = False
+320.7729 	EXP 	im_1: autoDraw = False
+320.7729 	EXP 	im_2: autoDraw = False
+320.7729 	EXP 	im_3: autoDraw = False
+320.7729 	EXP 	im_4: autoDraw = False
+320.7729 	EXP 	im_5: autoDraw = False
+320.7729 	EXP 	frame1: autoDraw = False
+320.7729 	EXP 	frame2: autoDraw = False
+320.7729 	EXP 	frame3: autoDraw = False
+320.7729 	EXP 	frame4: autoDraw = False
+320.7729 	EXP 	frame5: autoDraw = False
+320.7729 	EXP 	f1_text: autoDraw = False
+320.7729 	EXP 	f5_text: autoDraw = False
+320.7729 	EXP 	num1: autoDraw = False
+320.7729 	EXP 	num2: autoDraw = False
+320.7729 	EXP 	num3: autoDraw = False
+320.7729 	EXP 	num4: autoDraw = False
+320.7729 	EXP 	num5: autoDraw = False
+320.7729 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original012.png'
+320.7729 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated012.png'
+320.7729 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated012.png'
+320.7729 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated012.png'
+320.7729 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated012.png'
+320.7729 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated012.png'
+320.7729 	EXP 	im_1: pos = array([-0.35, -0.3 ])
+320.7729 	EXP 	im_2: pos = array([ 0.7, -0.3])
+320.7729 	EXP 	im_3: pos = array([ 0. , -0.3])
+320.7729 	EXP 	im_4: pos = array([-0.7, -0.3])
+320.7729 	EXP 	im_5: pos = array([ 0.35, -0.3 ])
+320.7729 	EXP 	target: autoDraw = True
+320.7729 	EXP 	im_1: autoDraw = True
+320.7729 	EXP 	im_2: autoDraw = True
+320.7729 	EXP 	im_3: autoDraw = True
+320.7729 	EXP 	im_4: autoDraw = True
+320.7729 	EXP 	im_5: autoDraw = True
+320.7729 	EXP 	frame1: autoDraw = True
+320.7729 	EXP 	frame2: autoDraw = True
+320.7729 	EXP 	frame3: autoDraw = True
+320.7729 	EXP 	frame4: autoDraw = True
+320.7729 	EXP 	frame5: autoDraw = True
+320.7729 	EXP 	f1_text: autoDraw = True
+320.7729 	EXP 	f5_text: autoDraw = True
+320.7729 	EXP 	num1: autoDraw = True
+320.7729 	EXP 	num2: autoDraw = True
+320.7729 	EXP 	num3: autoDraw = True
+320.7729 	EXP 	num4: autoDraw = True
+320.7729 	EXP 	num5: autoDraw = True
+322.3922 	DATA 	Keypress: num_2
+322.4252 	EXP 	im_1: pos = array([-0.7,  0. ])
+322.4252 	EXP 	im_1: autoDraw = True
+323.6173 	DATA 	Keypress: num_5
+323.6602 	EXP 	im_2: pos = array([-0.35,  0.  ])
+323.6602 	EXP 	im_2: autoDraw = True
+326.6731 	DATA 	Keypress: num_3
+326.7142 	EXP 	im_3: pos = array([0., 0.])
+326.7142 	EXP 	im_3: autoDraw = True
+327.2000 	DATA 	Keypress: num_1
+327.2315 	EXP 	im_4: pos = array([0.35, 0.  ])
+327.2315 	EXP 	im_4: autoDraw = True
+327.7521 	DATA 	Keypress: num_4
+327.7823 	EXP 	im_5: pos = array([0.7, 0. ])
+327.7823 	EXP 	im_5: autoDraw = True
+328.5842 	DATA 	Keypress: space
+328.5854 	EXP 	New trial (rep=0, index=13): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original011.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated011.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated011.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated011.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated011.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated011.png')])
+328.6168 	EXP 	target: autoDraw = False
+328.6168 	EXP 	im_1: autoDraw = False
+328.6168 	EXP 	im_2: autoDraw = False
+328.6168 	EXP 	im_3: autoDraw = False
+328.6168 	EXP 	im_4: autoDraw = False
+328.6168 	EXP 	im_5: autoDraw = False
+328.6168 	EXP 	frame1: autoDraw = False
+328.6168 	EXP 	frame2: autoDraw = False
+328.6168 	EXP 	frame3: autoDraw = False
+328.6168 	EXP 	frame4: autoDraw = False
+328.6168 	EXP 	frame5: autoDraw = False
+328.6168 	EXP 	f1_text: autoDraw = False
+328.6168 	EXP 	f5_text: autoDraw = False
+328.6168 	EXP 	num1: autoDraw = False
+328.6168 	EXP 	num2: autoDraw = False
+328.6168 	EXP 	num3: autoDraw = False
+328.6168 	EXP 	num4: autoDraw = False
+328.6168 	EXP 	num5: autoDraw = False
+328.6168 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original011.png'
+328.6168 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated011.png'
+328.6168 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated011.png'
+328.6168 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated011.png'
+328.6168 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated011.png'
+328.6168 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated011.png'
+328.6168 	EXP 	im_1: pos = array([-0.7, -0.3])
+328.6168 	EXP 	im_2: pos = array([ 0.35, -0.3 ])
+328.6168 	EXP 	im_3: pos = array([-0.35, -0.3 ])
+328.6168 	EXP 	im_4: pos = array([ 0.7, -0.3])
+328.6168 	EXP 	im_5: pos = array([ 0. , -0.3])
+328.6168 	EXP 	target: autoDraw = True
+328.6168 	EXP 	im_1: autoDraw = True
+328.6168 	EXP 	im_2: autoDraw = True
+328.6168 	EXP 	im_3: autoDraw = True
+328.6168 	EXP 	im_4: autoDraw = True
+328.6168 	EXP 	im_5: autoDraw = True
+328.6168 	EXP 	frame1: autoDraw = True
+328.6168 	EXP 	frame2: autoDraw = True
+328.6168 	EXP 	frame3: autoDraw = True
+328.6168 	EXP 	frame4: autoDraw = True
+328.6168 	EXP 	frame5: autoDraw = True
+328.6168 	EXP 	f1_text: autoDraw = True
+328.6168 	EXP 	f5_text: autoDraw = True
+328.6168 	EXP 	num1: autoDraw = True
+328.6168 	EXP 	num2: autoDraw = True
+328.6168 	EXP 	num3: autoDraw = True
+328.6168 	EXP 	num4: autoDraw = True
+328.6168 	EXP 	num5: autoDraw = True
+330.1203 	DATA 	Keypress: num_1
+330.1522 	EXP 	im_1: pos = array([-0.7,  0. ])
+330.1522 	EXP 	im_1: autoDraw = True
+335.0323 	DATA 	Keypress: num_4
+335.0755 	EXP 	im_2: pos = array([-0.35,  0.  ])
+335.0755 	EXP 	im_2: autoDraw = True
+343.4483 	DATA 	Keypress: num_2
+343.4868 	EXP 	im_3: pos = array([0., 0.])
+343.4868 	EXP 	im_3: autoDraw = True
+344.4963 	DATA 	Keypress: num_5
+344.5381 	EXP 	im_4: pos = array([0.35, 0.  ])
+344.5381 	EXP 	im_4: autoDraw = True
+345.5443 	DATA 	Keypress: num_3
+345.5728 	EXP 	im_5: pos = array([0.7, 0. ])
+345.5728 	EXP 	im_5: autoDraw = True
+346.1440 	DATA 	Keypress: space
+346.1452 	EXP 	New trial (rep=0, index=14): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original008.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated008.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated008.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated008.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated008.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated008.png')])
+346.1903 	EXP 	target: autoDraw = False
+346.1903 	EXP 	im_1: autoDraw = False
+346.1903 	EXP 	im_2: autoDraw = False
+346.1903 	EXP 	im_3: autoDraw = False
+346.1903 	EXP 	im_4: autoDraw = False
+346.1903 	EXP 	im_5: autoDraw = False
+346.1903 	EXP 	frame1: autoDraw = False
+346.1903 	EXP 	frame2: autoDraw = False
+346.1903 	EXP 	frame3: autoDraw = False
+346.1903 	EXP 	frame4: autoDraw = False
+346.1903 	EXP 	frame5: autoDraw = False
+346.1903 	EXP 	f1_text: autoDraw = False
+346.1903 	EXP 	f5_text: autoDraw = False
+346.1903 	EXP 	num1: autoDraw = False
+346.1903 	EXP 	num2: autoDraw = False
+346.1903 	EXP 	num3: autoDraw = False
+346.1903 	EXP 	num4: autoDraw = False
+346.1903 	EXP 	num5: autoDraw = False
+346.1903 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original008.png'
+346.1903 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated008.png'
+346.1903 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated008.png'
+346.1903 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated008.png'
+346.1903 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated008.png'
+346.1903 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated008.png'
+346.1903 	EXP 	im_1: pos = array([ 0.7, -0.3])
+346.1903 	EXP 	im_2: pos = array([ 0. , -0.3])
+346.1903 	EXP 	im_3: pos = array([ 0.35, -0.3 ])
+346.1903 	EXP 	im_4: pos = array([-0.35, -0.3 ])
+346.1903 	EXP 	im_5: pos = array([-0.7, -0.3])
+346.1903 	EXP 	target: autoDraw = True
+346.1903 	EXP 	im_1: autoDraw = True
+346.1903 	EXP 	im_2: autoDraw = True
+346.1903 	EXP 	im_3: autoDraw = True
+346.1903 	EXP 	im_4: autoDraw = True
+346.1903 	EXP 	im_5: autoDraw = True
+346.1903 	EXP 	frame1: autoDraw = True
+346.1903 	EXP 	frame2: autoDraw = True
+346.1903 	EXP 	frame3: autoDraw = True
+346.1903 	EXP 	frame4: autoDraw = True
+346.1903 	EXP 	frame5: autoDraw = True
+346.1903 	EXP 	f1_text: autoDraw = True
+346.1903 	EXP 	f5_text: autoDraw = True
+346.1903 	EXP 	num1: autoDraw = True
+346.1903 	EXP 	num2: autoDraw = True
+346.1903 	EXP 	num3: autoDraw = True
+346.1903 	EXP 	num4: autoDraw = True
+346.1903 	EXP 	num5: autoDraw = True
+347.9603 	DATA 	Keypress: num_5
+347.9927 	EXP 	im_1: pos = array([-0.7,  0. ])
+347.9927 	EXP 	im_1: autoDraw = True
+354.6403 	DATA 	Keypress: num_3
+354.6683 	EXP 	im_2: pos = array([-0.35,  0.  ])
+354.6683 	EXP 	im_2: autoDraw = True
+363.0403 	DATA 	Keypress: num_4
+363.0796 	EXP 	im_3: pos = array([0., 0.])
+363.0796 	EXP 	im_3: autoDraw = True
+363.9680 	DATA 	Keypress: num_2
+363.9975 	EXP 	im_4: pos = array([0.35, 0.  ])
+363.9975 	EXP 	im_4: autoDraw = True
+364.3921 	DATA 	Keypress: num_1
+364.4147 	EXP 	im_5: pos = array([0.7, 0. ])
+364.4147 	EXP 	im_5: autoDraw = True
+365.0321 	DATA 	Keypress: space
+365.0334 	EXP 	New trial (rep=0, index=15): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original046.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated046.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated046.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated046.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated046.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated046.png')])
+365.0657 	EXP 	target: autoDraw = False
+365.0657 	EXP 	im_1: autoDraw = False
+365.0657 	EXP 	im_2: autoDraw = False
+365.0657 	EXP 	im_3: autoDraw = False
+365.0657 	EXP 	im_4: autoDraw = False
+365.0657 	EXP 	im_5: autoDraw = False
+365.0657 	EXP 	frame1: autoDraw = False
+365.0657 	EXP 	frame2: autoDraw = False
+365.0657 	EXP 	frame3: autoDraw = False
+365.0657 	EXP 	frame4: autoDraw = False
+365.0657 	EXP 	frame5: autoDraw = False
+365.0657 	EXP 	f1_text: autoDraw = False
+365.0657 	EXP 	f5_text: autoDraw = False
+365.0657 	EXP 	num1: autoDraw = False
+365.0657 	EXP 	num2: autoDraw = False
+365.0657 	EXP 	num3: autoDraw = False
+365.0657 	EXP 	num4: autoDraw = False
+365.0657 	EXP 	num5: autoDraw = False
+365.0657 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original046.png'
+365.0657 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated046.png'
+365.0657 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated046.png'
+365.0657 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated046.png'
+365.0657 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated046.png'
+365.0657 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated046.png'
+365.0657 	EXP 	im_1: pos = array([ 0.7, -0.3])
+365.0657 	EXP 	im_2: pos = array([ 0.35, -0.3 ])
+365.0657 	EXP 	im_3: pos = array([-0.7, -0.3])
+365.0657 	EXP 	im_4: pos = array([-0.35, -0.3 ])
+365.0657 	EXP 	im_5: pos = array([ 0. , -0.3])
+365.0657 	EXP 	target: autoDraw = True
+365.0657 	EXP 	im_1: autoDraw = True
+365.0657 	EXP 	im_2: autoDraw = True
+365.0657 	EXP 	im_3: autoDraw = True
+365.0657 	EXP 	im_4: autoDraw = True
+365.0657 	EXP 	im_5: autoDraw = True
+365.0657 	EXP 	frame1: autoDraw = True
+365.0657 	EXP 	frame2: autoDraw = True
+365.0657 	EXP 	frame3: autoDraw = True
+365.0657 	EXP 	frame4: autoDraw = True
+365.0657 	EXP 	frame5: autoDraw = True
+365.0657 	EXP 	f1_text: autoDraw = True
+365.0657 	EXP 	f5_text: autoDraw = True
+365.0657 	EXP 	num1: autoDraw = True
+365.0657 	EXP 	num2: autoDraw = True
+365.0657 	EXP 	num3: autoDraw = True
+365.0657 	EXP 	num4: autoDraw = True
+365.0657 	EXP 	num5: autoDraw = True
+368.2963 	DATA 	Keypress: num_5
+368.3367 	EXP 	im_1: pos = array([-0.7,  0. ])
+368.3367 	EXP 	im_1: autoDraw = True
+369.0321 	DATA 	Keypress: num_1
+369.0544 	EXP 	im_3: pos = array([-0.35,  0.  ])
+369.0544 	EXP 	im_3: autoDraw = True
+373.1684 	DATA 	Keypress: num_3
+373.2099 	EXP 	im_5: pos = array([0., 0.])
+373.2099 	EXP 	im_5: autoDraw = True
+373.9851 	DATA 	Keypress: num_2
+374.0109 	EXP 	im_4: pos = array([0.35, 0.  ])
+374.0109 	EXP 	im_4: autoDraw = True
+374.3921 	DATA 	Keypress: num_1
+375.7042 	DATA 	Keypress: num_4
+375.7299 	EXP 	im_2: pos = array([0.7, 0. ])
+375.7299 	EXP 	im_2: autoDraw = True
+376.5361 	DATA 	Keypress: space
+376.5375 	EXP 	New trial (rep=0, index=16): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original039.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated039.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated039.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated039.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated039.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated039.png')])
+376.5811 	EXP 	target: autoDraw = False
+376.5811 	EXP 	im_1: autoDraw = False
+376.5811 	EXP 	im_2: autoDraw = False
+376.5811 	EXP 	im_3: autoDraw = False
+376.5811 	EXP 	im_4: autoDraw = False
+376.5811 	EXP 	im_5: autoDraw = False
+376.5811 	EXP 	frame1: autoDraw = False
+376.5811 	EXP 	frame2: autoDraw = False
+376.5811 	EXP 	frame3: autoDraw = False
+376.5811 	EXP 	frame4: autoDraw = False
+376.5811 	EXP 	frame5: autoDraw = False
+376.5811 	EXP 	f1_text: autoDraw = False
+376.5811 	EXP 	f5_text: autoDraw = False
+376.5811 	EXP 	num1: autoDraw = False
+376.5811 	EXP 	num2: autoDraw = False
+376.5811 	EXP 	num3: autoDraw = False
+376.5811 	EXP 	num4: autoDraw = False
+376.5811 	EXP 	num5: autoDraw = False
+376.5811 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original039.png'
+376.5811 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated039.png'
+376.5811 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated039.png'
+376.5811 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated039.png'
+376.5811 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated039.png'
+376.5811 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated039.png'
+376.5811 	EXP 	im_1: pos = array([ 0.35, -0.3 ])
+376.5811 	EXP 	im_2: pos = array([-0.7, -0.3])
+376.5811 	EXP 	im_3: pos = array([ 0. , -0.3])
+376.5811 	EXP 	im_4: pos = array([-0.35, -0.3 ])
+376.5811 	EXP 	im_5: pos = array([ 0.7, -0.3])
+376.5811 	EXP 	target: autoDraw = True
+376.5811 	EXP 	im_1: autoDraw = True
+376.5811 	EXP 	im_2: autoDraw = True
+376.5811 	EXP 	im_3: autoDraw = True
+376.5811 	EXP 	im_4: autoDraw = True
+376.5811 	EXP 	im_5: autoDraw = True
+376.5811 	EXP 	frame1: autoDraw = True
+376.5811 	EXP 	frame2: autoDraw = True
+376.5811 	EXP 	frame3: autoDraw = True
+376.5811 	EXP 	frame4: autoDraw = True
+376.5811 	EXP 	frame5: autoDraw = True
+376.5811 	EXP 	f1_text: autoDraw = True
+376.5811 	EXP 	f5_text: autoDraw = True
+376.5811 	EXP 	num1: autoDraw = True
+376.5811 	EXP 	num2: autoDraw = True
+376.5811 	EXP 	num3: autoDraw = True
+376.5811 	EXP 	num4: autoDraw = True
+376.5811 	EXP 	num5: autoDraw = True
+378.0163 	DATA 	Keypress: num_4
+378.0497 	EXP 	im_1: pos = array([-0.7,  0. ])
+378.0497 	EXP 	im_1: autoDraw = True
+383.8962 	DATA 	Keypress: num_1
+383.9243 	EXP 	im_2: pos = array([-0.35,  0.  ])
+383.9243 	EXP 	im_2: autoDraw = True
+384.9041 	DATA 	Keypress: num_3
+384.9256 	EXP 	im_3: pos = array([0., 0.])
+384.9256 	EXP 	im_3: autoDraw = True
+385.3280 	DATA 	Keypress: num_2
+385.3595 	EXP 	im_4: pos = array([0.35, 0.  ])
+385.3595 	EXP 	im_4: autoDraw = True
+387.0243 	DATA 	Keypress: num_5
+387.0618 	EXP 	im_5: pos = array([0.7, 0. ])
+387.0618 	EXP 	im_5: autoDraw = True
+387.9762 	DATA 	Keypress: space
+387.9774 	EXP 	New trial (rep=0, index=17): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original041.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated041.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated041.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated041.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated041.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated041.png')])
+388.0131 	EXP 	target: autoDraw = False
+388.0131 	EXP 	im_1: autoDraw = False
+388.0131 	EXP 	im_2: autoDraw = False
+388.0131 	EXP 	im_3: autoDraw = False
+388.0131 	EXP 	im_4: autoDraw = False
+388.0131 	EXP 	im_5: autoDraw = False
+388.0131 	EXP 	frame1: autoDraw = False
+388.0131 	EXP 	frame2: autoDraw = False
+388.0131 	EXP 	frame3: autoDraw = False
+388.0131 	EXP 	frame4: autoDraw = False
+388.0131 	EXP 	frame5: autoDraw = False
+388.0131 	EXP 	f1_text: autoDraw = False
+388.0131 	EXP 	f5_text: autoDraw = False
+388.0131 	EXP 	num1: autoDraw = False
+388.0131 	EXP 	num2: autoDraw = False
+388.0131 	EXP 	num3: autoDraw = False
+388.0131 	EXP 	num4: autoDraw = False
+388.0131 	EXP 	num5: autoDraw = False
+388.0131 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original041.png'
+388.0131 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated041.png'
+388.0131 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated041.png'
+388.0131 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated041.png'
+388.0131 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated041.png'
+388.0131 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated041.png'
+388.0131 	EXP 	im_1: pos = array([-0.35, -0.3 ])
+388.0131 	EXP 	im_2: pos = array([ 0. , -0.3])
+388.0131 	EXP 	im_3: pos = array([-0.7, -0.3])
+388.0131 	EXP 	im_4: pos = array([ 0.7, -0.3])
+388.0131 	EXP 	im_5: pos = array([ 0.35, -0.3 ])
+388.0131 	EXP 	target: autoDraw = True
+388.0131 	EXP 	im_1: autoDraw = True
+388.0131 	EXP 	im_2: autoDraw = True
+388.0131 	EXP 	im_3: autoDraw = True
+388.0131 	EXP 	im_4: autoDraw = True
+388.0131 	EXP 	im_5: autoDraw = True
+388.0131 	EXP 	frame1: autoDraw = True
+388.0131 	EXP 	frame2: autoDraw = True
+388.0131 	EXP 	frame3: autoDraw = True
+388.0131 	EXP 	frame4: autoDraw = True
+388.0131 	EXP 	frame5: autoDraw = True
+388.0131 	EXP 	f1_text: autoDraw = True
+388.0131 	EXP 	f5_text: autoDraw = True
+388.0131 	EXP 	num1: autoDraw = True
+388.0131 	EXP 	num2: autoDraw = True
+388.0131 	EXP 	num3: autoDraw = True
+388.0131 	EXP 	num4: autoDraw = True
+388.0131 	EXP 	num5: autoDraw = True
+392.2084 	DATA 	Keypress: num_3
+392.2354 	EXP 	im_2: pos = array([-0.7,  0. ])
+392.2354 	EXP 	im_2: autoDraw = True
+393.1601 	DATA 	Keypress: num_2
+393.1867 	EXP 	im_1: pos = array([-0.35,  0.  ])
+393.1867 	EXP 	im_1: autoDraw = True
+395.8722 	DATA 	Keypress: num_1
+395.9070 	EXP 	im_3: pos = array([0., 0.])
+395.9070 	EXP 	im_3: autoDraw = True
+397.1683 	DATA 	Keypress: num_5
+397.2088 	EXP 	im_4: pos = array([0.35, 0.  ])
+397.2088 	EXP 	im_4: autoDraw = True
+397.5680 	DATA 	Keypress: num_4
+397.5925 	EXP 	im_5: pos = array([0.7, 0. ])
+397.5925 	EXP 	im_5: autoDraw = True
+398.3682 	DATA 	Keypress: space
+398.3694 	EXP 	New trial (rep=0, index=18): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original037.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated037.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated037.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated037.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated037.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated037.png')])
+398.4103 	EXP 	target: autoDraw = False
+398.4103 	EXP 	im_1: autoDraw = False
+398.4103 	EXP 	im_2: autoDraw = False
+398.4103 	EXP 	im_3: autoDraw = False
+398.4103 	EXP 	im_4: autoDraw = False
+398.4103 	EXP 	im_5: autoDraw = False
+398.4103 	EXP 	frame1: autoDraw = False
+398.4103 	EXP 	frame2: autoDraw = False
+398.4103 	EXP 	frame3: autoDraw = False
+398.4103 	EXP 	frame4: autoDraw = False
+398.4103 	EXP 	frame5: autoDraw = False
+398.4103 	EXP 	f1_text: autoDraw = False
+398.4103 	EXP 	f5_text: autoDraw = False
+398.4103 	EXP 	num1: autoDraw = False
+398.4103 	EXP 	num2: autoDraw = False
+398.4103 	EXP 	num3: autoDraw = False
+398.4103 	EXP 	num4: autoDraw = False
+398.4103 	EXP 	num5: autoDraw = False
+398.4103 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original037.png'
+398.4103 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated037.png'
+398.4103 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated037.png'
+398.4103 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated037.png'
+398.4103 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated037.png'
+398.4103 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated037.png'
+398.4103 	EXP 	im_1: pos = array([ 0.7, -0.3])
+398.4103 	EXP 	im_2: pos = array([ 0. , -0.3])
+398.4103 	EXP 	im_3: pos = array([-0.7, -0.3])
+398.4103 	EXP 	im_4: pos = array([-0.35, -0.3 ])
+398.4103 	EXP 	im_5: pos = array([ 0.35, -0.3 ])
+398.4103 	EXP 	target: autoDraw = True
+398.4103 	EXP 	im_1: autoDraw = True
+398.4103 	EXP 	im_2: autoDraw = True
+398.4103 	EXP 	im_3: autoDraw = True
+398.4103 	EXP 	im_4: autoDraw = True
+398.4103 	EXP 	im_5: autoDraw = True
+398.4103 	EXP 	frame1: autoDraw = True
+398.4103 	EXP 	frame2: autoDraw = True
+398.4103 	EXP 	frame3: autoDraw = True
+398.4103 	EXP 	frame4: autoDraw = True
+398.4103 	EXP 	frame5: autoDraw = True
+398.4103 	EXP 	f1_text: autoDraw = True
+398.4103 	EXP 	f5_text: autoDraw = True
+398.4103 	EXP 	num1: autoDraw = True
+398.4103 	EXP 	num2: autoDraw = True
+398.4103 	EXP 	num3: autoDraw = True
+398.4103 	EXP 	num4: autoDraw = True
+398.4103 	EXP 	num5: autoDraw = True
+400.5123 	DATA 	Keypress: num_5
+400.5466 	EXP 	im_1: pos = array([-0.7,  0. ])
+400.5466 	EXP 	im_1: autoDraw = True
+404.2883 	DATA 	Keypress: num_4
+404.3182 	EXP 	im_5: pos = array([-0.35,  0.  ])
+404.3182 	EXP 	im_5: autoDraw = True
+404.8080 	DATA 	Keypress: num_3
+404.8356 	EXP 	im_2: pos = array([0., 0.])
+404.8356 	EXP 	im_2: autoDraw = True
+406.7043 	DATA 	Keypress: num_1
+406.7382 	EXP 	im_3: pos = array([0.35, 0.  ])
+406.7382 	EXP 	im_3: autoDraw = True
+406.9041 	DATA 	Keypress: num_2
+406.9385 	EXP 	im_4: pos = array([0.7, 0. ])
+406.9385 	EXP 	im_4: autoDraw = True
+407.6241 	DATA 	Keypress: space
+407.6254 	EXP 	New trial (rep=0, index=19): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original007.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated007.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated007.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated007.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated007.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated007.png')])
+407.6562 	EXP 	target: autoDraw = False
+407.6562 	EXP 	im_1: autoDraw = False
+407.6562 	EXP 	im_2: autoDraw = False
+407.6562 	EXP 	im_3: autoDraw = False
+407.6562 	EXP 	im_4: autoDraw = False
+407.6562 	EXP 	im_5: autoDraw = False
+407.6562 	EXP 	frame1: autoDraw = False
+407.6562 	EXP 	frame2: autoDraw = False
+407.6562 	EXP 	frame3: autoDraw = False
+407.6562 	EXP 	frame4: autoDraw = False
+407.6562 	EXP 	frame5: autoDraw = False
+407.6562 	EXP 	f1_text: autoDraw = False
+407.6562 	EXP 	f5_text: autoDraw = False
+407.6562 	EXP 	num1: autoDraw = False
+407.6562 	EXP 	num2: autoDraw = False
+407.6562 	EXP 	num3: autoDraw = False
+407.6562 	EXP 	num4: autoDraw = False
+407.6562 	EXP 	num5: autoDraw = False
+407.6562 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original007.png'
+407.6562 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated007.png'
+407.6562 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated007.png'
+407.6562 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated007.png'
+407.6562 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated007.png'
+407.6562 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated007.png'
+407.6562 	EXP 	im_1: pos = array([ 0.7, -0.3])
+407.6562 	EXP 	im_2: pos = array([ 0. , -0.3])
+407.6562 	EXP 	im_3: pos = array([-0.35, -0.3 ])
+407.6562 	EXP 	im_4: pos = array([ 0.35, -0.3 ])
+407.6562 	EXP 	im_5: pos = array([-0.7, -0.3])
+407.6562 	EXP 	target: autoDraw = True
+407.6562 	EXP 	im_1: autoDraw = True
+407.6562 	EXP 	im_2: autoDraw = True
+407.6562 	EXP 	im_3: autoDraw = True
+407.6562 	EXP 	im_4: autoDraw = True
+407.6562 	EXP 	im_5: autoDraw = True
+407.6562 	EXP 	frame1: autoDraw = True
+407.6562 	EXP 	frame2: autoDraw = True
+407.6562 	EXP 	frame3: autoDraw = True
+407.6562 	EXP 	frame4: autoDraw = True
+407.6562 	EXP 	frame5: autoDraw = True
+407.6562 	EXP 	f1_text: autoDraw = True
+407.6562 	EXP 	f5_text: autoDraw = True
+407.6562 	EXP 	num1: autoDraw = True
+407.6562 	EXP 	num2: autoDraw = True
+407.6562 	EXP 	num3: autoDraw = True
+407.6562 	EXP 	num4: autoDraw = True
+407.6562 	EXP 	num5: autoDraw = True
+409.1602 	DATA 	Keypress: num_5
+409.1915 	EXP 	im_1: pos = array([-0.7,  0. ])
+409.1915 	EXP 	im_1: autoDraw = True
+418.5363 	DATA 	Keypress: num_3
+418.5707 	EXP 	im_2: pos = array([-0.35,  0.  ])
+418.5707 	EXP 	im_2: autoDraw = True
+418.9281 	DATA 	Keypress: num_1
+418.9545 	EXP 	im_5: pos = array([0., 0.])
+418.9545 	EXP 	im_5: autoDraw = True
+421.5291 	DATA 	Keypress: num_4
+421.5747 	EXP 	im_4: pos = array([0.35, 0.  ])
+421.5747 	EXP 	im_4: autoDraw = True
+422.1441 	DATA 	Keypress: num_2
+422.1755 	EXP 	im_3: pos = array([0.7, 0. ])
+422.1755 	EXP 	im_3: autoDraw = True
+422.9362 	DATA 	Keypress: space
+422.9374 	EXP 	New trial (rep=0, index=20): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original024.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated024.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated024.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated024.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated024.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated024.png')])
+422.9766 	EXP 	target: autoDraw = False
+422.9766 	EXP 	im_1: autoDraw = False
+422.9766 	EXP 	im_2: autoDraw = False
+422.9766 	EXP 	im_3: autoDraw = False
+422.9766 	EXP 	im_4: autoDraw = False
+422.9766 	EXP 	im_5: autoDraw = False
+422.9766 	EXP 	frame1: autoDraw = False
+422.9766 	EXP 	frame2: autoDraw = False
+422.9766 	EXP 	frame3: autoDraw = False
+422.9766 	EXP 	frame4: autoDraw = False
+422.9766 	EXP 	frame5: autoDraw = False
+422.9766 	EXP 	f1_text: autoDraw = False
+422.9766 	EXP 	f5_text: autoDraw = False
+422.9766 	EXP 	num1: autoDraw = False
+422.9766 	EXP 	num2: autoDraw = False
+422.9766 	EXP 	num3: autoDraw = False
+422.9766 	EXP 	num4: autoDraw = False
+422.9766 	EXP 	num5: autoDraw = False
+422.9766 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original024.png'
+422.9766 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated024.png'
+422.9766 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated024.png'
+422.9766 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated024.png'
+422.9766 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated024.png'
+422.9766 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated024.png'
+422.9766 	EXP 	im_1: pos = array([ 0. , -0.3])
+422.9766 	EXP 	im_2: pos = array([-0.7, -0.3])
+422.9766 	EXP 	im_3: pos = array([ 0.35, -0.3 ])
+422.9766 	EXP 	im_4: pos = array([-0.35, -0.3 ])
+422.9766 	EXP 	im_5: pos = array([ 0.7, -0.3])
+422.9766 	EXP 	target: autoDraw = True
+422.9766 	EXP 	im_1: autoDraw = True
+422.9766 	EXP 	im_2: autoDraw = True
+422.9766 	EXP 	im_3: autoDraw = True
+422.9766 	EXP 	im_4: autoDraw = True
+422.9766 	EXP 	im_5: autoDraw = True
+422.9766 	EXP 	frame1: autoDraw = True
+422.9766 	EXP 	frame2: autoDraw = True
+422.9766 	EXP 	frame3: autoDraw = True
+422.9766 	EXP 	frame4: autoDraw = True
+422.9766 	EXP 	frame5: autoDraw = True
+422.9766 	EXP 	f1_text: autoDraw = True
+422.9766 	EXP 	f5_text: autoDraw = True
+422.9766 	EXP 	num1: autoDraw = True
+422.9766 	EXP 	num2: autoDraw = True
+422.9766 	EXP 	num3: autoDraw = True
+422.9766 	EXP 	num4: autoDraw = True
+422.9766 	EXP 	num5: autoDraw = True
+425.4164 	DATA 	Keypress: num_3
+425.4466 	EXP 	im_1: pos = array([-0.7,  0. ])
+425.4466 	EXP 	im_1: autoDraw = True
+431.0963 	DATA 	Keypress: num_5
+431.1377 	EXP 	im_5: pos = array([-0.35,  0.  ])
+431.1377 	EXP 	im_5: autoDraw = True
+431.5041 	DATA 	Keypress: num_1
+431.5381 	EXP 	im_2: pos = array([0., 0.])
+431.5381 	EXP 	im_2: autoDraw = True
+433.9922 	DATA 	Keypress: num_4
+434.0248 	EXP 	im_3: pos = array([0.35, 0.  ])
+434.0248 	EXP 	im_3: autoDraw = True
+434.6961 	DATA 	Keypress: num_2
+434.7257 	EXP 	im_4: pos = array([0.7, 0. ])
+434.7257 	EXP 	im_4: autoDraw = True
+435.4401 	DATA 	Keypress: space
+435.4416 	EXP 	New trial (rep=0, index=21): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original005.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated005.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated005.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated005.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated005.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated005.png')])
+435.4768 	EXP 	target: autoDraw = False
+435.4768 	EXP 	im_1: autoDraw = False
+435.4768 	EXP 	im_2: autoDraw = False
+435.4768 	EXP 	im_3: autoDraw = False
+435.4768 	EXP 	im_4: autoDraw = False
+435.4768 	EXP 	im_5: autoDraw = False
+435.4768 	EXP 	frame1: autoDraw = False
+435.4768 	EXP 	frame2: autoDraw = False
+435.4768 	EXP 	frame3: autoDraw = False
+435.4768 	EXP 	frame4: autoDraw = False
+435.4768 	EXP 	frame5: autoDraw = False
+435.4768 	EXP 	f1_text: autoDraw = False
+435.4768 	EXP 	f5_text: autoDraw = False
+435.4768 	EXP 	num1: autoDraw = False
+435.4768 	EXP 	num2: autoDraw = False
+435.4768 	EXP 	num3: autoDraw = False
+435.4768 	EXP 	num4: autoDraw = False
+435.4768 	EXP 	num5: autoDraw = False
+435.4768 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original005.png'
+435.4768 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated005.png'
+435.4768 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated005.png'
+435.4768 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated005.png'
+435.4768 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated005.png'
+435.4768 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated005.png'
+435.4768 	EXP 	im_1: pos = array([ 0. , -0.3])
+435.4768 	EXP 	im_2: pos = array([ 0.35, -0.3 ])
+435.4768 	EXP 	im_3: pos = array([ 0.7, -0.3])
+435.4768 	EXP 	im_4: pos = array([-0.7, -0.3])
+435.4768 	EXP 	im_5: pos = array([-0.35, -0.3 ])
+435.4768 	EXP 	target: autoDraw = True
+435.4768 	EXP 	im_1: autoDraw = True
+435.4768 	EXP 	im_2: autoDraw = True
+435.4768 	EXP 	im_3: autoDraw = True
+435.4768 	EXP 	im_4: autoDraw = True
+435.4768 	EXP 	im_5: autoDraw = True
+435.4768 	EXP 	frame1: autoDraw = True
+435.4768 	EXP 	frame2: autoDraw = True
+435.4768 	EXP 	frame3: autoDraw = True
+435.4768 	EXP 	frame4: autoDraw = True
+435.4768 	EXP 	frame5: autoDraw = True
+435.4768 	EXP 	f1_text: autoDraw = True
+435.4768 	EXP 	f5_text: autoDraw = True
+435.4768 	EXP 	num1: autoDraw = True
+435.4768 	EXP 	num2: autoDraw = True
+435.4768 	EXP 	num3: autoDraw = True
+435.4768 	EXP 	num4: autoDraw = True
+435.4768 	EXP 	num5: autoDraw = True
+441.7523 	DATA 	Keypress: num_4
+441.7853 	EXP 	im_2: pos = array([-0.7,  0. ])
+441.7853 	EXP 	im_2: autoDraw = True
+444.1202 	DATA 	Keypress: num_1
+444.1550 	EXP 	im_4: pos = array([-0.35,  0.  ])
+444.1550 	EXP 	im_4: autoDraw = True
+451.7122 	DATA 	Keypress: num_2
+451.7485 	EXP 	im_5: pos = array([0., 0.])
+451.7485 	EXP 	im_5: autoDraw = True
+452.1041 	DATA 	Keypress: num_5
+452.1324 	EXP 	im_3: pos = array([0.35, 0.  ])
+452.1324 	EXP 	im_3: autoDraw = True
+452.6563 	DATA 	Keypress: num_3
+452.6832 	EXP 	im_1: pos = array([0.7, 0. ])
+452.6832 	EXP 	im_1: autoDraw = True
+453.3762 	DATA 	Keypress: space
+453.3774 	EXP 	New trial (rep=0, index=22): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original048.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated048.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated048.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated048.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated048.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated048.png')])
+453.4174 	EXP 	target: autoDraw = False
+453.4174 	EXP 	im_1: autoDraw = False
+453.4174 	EXP 	im_2: autoDraw = False
+453.4174 	EXP 	im_3: autoDraw = False
+453.4174 	EXP 	im_4: autoDraw = False
+453.4174 	EXP 	im_5: autoDraw = False
+453.4174 	EXP 	frame1: autoDraw = False
+453.4174 	EXP 	frame2: autoDraw = False
+453.4174 	EXP 	frame3: autoDraw = False
+453.4174 	EXP 	frame4: autoDraw = False
+453.4174 	EXP 	frame5: autoDraw = False
+453.4174 	EXP 	f1_text: autoDraw = False
+453.4174 	EXP 	f5_text: autoDraw = False
+453.4174 	EXP 	num1: autoDraw = False
+453.4174 	EXP 	num2: autoDraw = False
+453.4174 	EXP 	num3: autoDraw = False
+453.4174 	EXP 	num4: autoDraw = False
+453.4174 	EXP 	num5: autoDraw = False
+453.4174 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original048.png'
+453.4174 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated048.png'
+453.4174 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated048.png'
+453.4174 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated048.png'
+453.4174 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated048.png'
+453.4174 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated048.png'
+453.4174 	EXP 	im_1: pos = array([-0.7, -0.3])
+453.4174 	EXP 	im_2: pos = array([ 0.7, -0.3])
+453.4174 	EXP 	im_3: pos = array([ 0.35, -0.3 ])
+453.4174 	EXP 	im_4: pos = array([-0.35, -0.3 ])
+453.4174 	EXP 	im_5: pos = array([ 0. , -0.3])
+453.4174 	EXP 	target: autoDraw = True
+453.4174 	EXP 	im_1: autoDraw = True
+453.4174 	EXP 	im_2: autoDraw = True
+453.4174 	EXP 	im_3: autoDraw = True
+453.4174 	EXP 	im_4: autoDraw = True
+453.4174 	EXP 	im_5: autoDraw = True
+453.4174 	EXP 	frame1: autoDraw = True
+453.4174 	EXP 	frame2: autoDraw = True
+453.4174 	EXP 	frame3: autoDraw = True
+453.4174 	EXP 	frame4: autoDraw = True
+453.4174 	EXP 	frame5: autoDraw = True
+453.4174 	EXP 	f1_text: autoDraw = True
+453.4174 	EXP 	f5_text: autoDraw = True
+453.4174 	EXP 	num1: autoDraw = True
+453.4174 	EXP 	num2: autoDraw = True
+453.4174 	EXP 	num3: autoDraw = True
+453.4174 	EXP 	num4: autoDraw = True
+453.4174 	EXP 	num5: autoDraw = True
+455.9444 	DATA 	Keypress: num_1
+455.9708 	EXP 	im_1: pos = array([-0.7,  0. ])
+455.9708 	EXP 	im_1: autoDraw = True
+457.8082 	DATA 	Keypress: num_5
+457.8401 	EXP 	im_2: pos = array([-0.35,  0.  ])
+457.8401 	EXP 	im_2: autoDraw = True
+460.7762 	DATA 	Keypress: num_4
+460.8107 	EXP 	im_3: pos = array([0., 0.])
+460.8107 	EXP 	im_3: autoDraw = True
+463.6642 	DATA 	Keypress: num_3
+463.6979 	EXP 	im_5: pos = array([0.35, 0.  ])
+463.6979 	EXP 	im_5: autoDraw = True
+463.9841 	DATA 	Keypress: num_2
+464.0150 	EXP 	im_4: pos = array([0.7, 0. ])
+464.0150 	EXP 	im_4: autoDraw = True
+464.8561 	DATA 	Keypress: space
+464.8573 	EXP 	New trial (rep=0, index=23): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original004.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated004.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated004.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated004.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated004.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated004.png')])
+464.8996 	EXP 	target: autoDraw = False
+464.8996 	EXP 	im_1: autoDraw = False
+464.8996 	EXP 	im_2: autoDraw = False
+464.8996 	EXP 	im_3: autoDraw = False
+464.8996 	EXP 	im_4: autoDraw = False
+464.8996 	EXP 	im_5: autoDraw = False
+464.8996 	EXP 	frame1: autoDraw = False
+464.8996 	EXP 	frame2: autoDraw = False
+464.8996 	EXP 	frame3: autoDraw = False
+464.8996 	EXP 	frame4: autoDraw = False
+464.8996 	EXP 	frame5: autoDraw = False
+464.8996 	EXP 	f1_text: autoDraw = False
+464.8996 	EXP 	f5_text: autoDraw = False
+464.8996 	EXP 	num1: autoDraw = False
+464.8996 	EXP 	num2: autoDraw = False
+464.8996 	EXP 	num3: autoDraw = False
+464.8996 	EXP 	num4: autoDraw = False
+464.8996 	EXP 	num5: autoDraw = False
+464.8996 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original004.png'
+464.8996 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated004.png'
+464.8996 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated004.png'
+464.8996 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated004.png'
+464.8996 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated004.png'
+464.8996 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated004.png'
+464.8996 	EXP 	im_1: pos = array([-0.7, -0.3])
+464.8996 	EXP 	im_2: pos = array([-0.35, -0.3 ])
+464.8996 	EXP 	im_3: pos = array([ 0.7, -0.3])
+464.8996 	EXP 	im_4: pos = array([ 0.35, -0.3 ])
+464.8996 	EXP 	im_5: pos = array([ 0. , -0.3])
+464.8996 	EXP 	target: autoDraw = True
+464.8996 	EXP 	im_1: autoDraw = True
+464.8996 	EXP 	im_2: autoDraw = True
+464.8996 	EXP 	im_3: autoDraw = True
+464.8996 	EXP 	im_4: autoDraw = True
+464.8996 	EXP 	im_5: autoDraw = True
+464.8996 	EXP 	frame1: autoDraw = True
+464.8996 	EXP 	frame2: autoDraw = True
+464.8996 	EXP 	frame3: autoDraw = True
+464.8996 	EXP 	frame4: autoDraw = True
+464.8996 	EXP 	frame5: autoDraw = True
+464.8996 	EXP 	f1_text: autoDraw = True
+464.8996 	EXP 	f5_text: autoDraw = True
+464.8996 	EXP 	num1: autoDraw = True
+464.8996 	EXP 	num2: autoDraw = True
+464.8996 	EXP 	num3: autoDraw = True
+464.8996 	EXP 	num4: autoDraw = True
+464.8996 	EXP 	num5: autoDraw = True
+466.2882 	DATA 	Keypress: num_1
+466.3180 	EXP 	im_1: pos = array([-0.7,  0. ])
+466.3180 	EXP 	im_1: autoDraw = True
+473.8563 	DATA 	Keypress: num_4
+473.8949 	EXP 	im_4: pos = array([-0.35,  0.  ])
+473.8949 	EXP 	im_4: autoDraw = True
+475.0883 	DATA 	Keypress: num_5
+475.1299 	EXP 	im_3: pos = array([0., 0.])
+475.1299 	EXP 	im_3: autoDraw = True
+476.0801 	DATA 	Keypress: num_2
+476.1145 	EXP 	im_2: pos = array([0.35, 0.  ])
+476.1145 	EXP 	im_2: autoDraw = True
+476.3841 	DATA 	Keypress: num_3
+476.4150 	EXP 	im_5: pos = array([0.7, 0. ])
+476.4150 	EXP 	im_5: autoDraw = True
+477.2400 	DATA 	Keypress: space
+477.2414 	EXP 	New trial (rep=0, index=24): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original009.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated009.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated009.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated009.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated009.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated009.png')])
+477.2829 	EXP 	target: autoDraw = False
+477.2829 	EXP 	im_1: autoDraw = False
+477.2829 	EXP 	im_2: autoDraw = False
+477.2829 	EXP 	im_3: autoDraw = False
+477.2829 	EXP 	im_4: autoDraw = False
+477.2829 	EXP 	im_5: autoDraw = False
+477.2829 	EXP 	frame1: autoDraw = False
+477.2829 	EXP 	frame2: autoDraw = False
+477.2829 	EXP 	frame3: autoDraw = False
+477.2829 	EXP 	frame4: autoDraw = False
+477.2829 	EXP 	frame5: autoDraw = False
+477.2829 	EXP 	f1_text: autoDraw = False
+477.2829 	EXP 	f5_text: autoDraw = False
+477.2829 	EXP 	num1: autoDraw = False
+477.2829 	EXP 	num2: autoDraw = False
+477.2829 	EXP 	num3: autoDraw = False
+477.2829 	EXP 	num4: autoDraw = False
+477.2829 	EXP 	num5: autoDraw = False
+477.2829 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original009.png'
+477.2829 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated009.png'
+477.2829 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated009.png'
+477.2829 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated009.png'
+477.2829 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated009.png'
+477.2829 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated009.png'
+477.2829 	EXP 	im_1: pos = array([-0.7, -0.3])
+477.2829 	EXP 	im_2: pos = array([ 0.35, -0.3 ])
+477.2829 	EXP 	im_3: pos = array([-0.35, -0.3 ])
+477.2829 	EXP 	im_4: pos = array([ 0. , -0.3])
+477.2829 	EXP 	im_5: pos = array([ 0.7, -0.3])
+477.2829 	EXP 	target: autoDraw = True
+477.2829 	EXP 	im_1: autoDraw = True
+477.2829 	EXP 	im_2: autoDraw = True
+477.2829 	EXP 	im_3: autoDraw = True
+477.2829 	EXP 	im_4: autoDraw = True
+477.2829 	EXP 	im_5: autoDraw = True
+477.2829 	EXP 	frame1: autoDraw = True
+477.2829 	EXP 	frame2: autoDraw = True
+477.2829 	EXP 	frame3: autoDraw = True
+477.2829 	EXP 	frame4: autoDraw = True
+477.2829 	EXP 	frame5: autoDraw = True
+477.2829 	EXP 	f1_text: autoDraw = True
+477.2829 	EXP 	f5_text: autoDraw = True
+477.2829 	EXP 	num1: autoDraw = True
+477.2829 	EXP 	num2: autoDraw = True
+477.2829 	EXP 	num3: autoDraw = True
+477.2829 	EXP 	num4: autoDraw = True
+477.2829 	EXP 	num5: autoDraw = True
+480.0244 	DATA 	Keypress: num_1
+480.0531 	EXP 	im_1: pos = array([-0.7,  0. ])
+480.0531 	EXP 	im_1: autoDraw = True
+481.4723 	DATA 	Keypress: num_4
+481.5051 	EXP 	im_2: pos = array([-0.35,  0.  ])
+481.5051 	EXP 	im_2: autoDraw = True
+484.3283 	DATA 	Keypress: num_5
+484.3589 	EXP 	im_5: pos = array([0., 0.])
+484.3589 	EXP 	im_5: autoDraw = True
+485.0000 	DATA 	Keypress: num_2
+485.0265 	EXP 	im_3: pos = array([0.35, 0.  ])
+485.0265 	EXP 	im_3: autoDraw = True
+486.1202 	DATA 	Keypress: num_3
+486.1613 	EXP 	im_4: pos = array([0.7, 0. ])
+486.1613 	EXP 	im_4: autoDraw = True
+486.9041 	DATA 	Keypress: space
+486.9054 	EXP 	New trial (rep=0, index=25): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original000.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated000.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated000.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated000.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated000.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated000.png')])
+486.9457 	EXP 	target: autoDraw = False
+486.9457 	EXP 	im_1: autoDraw = False
+486.9457 	EXP 	im_2: autoDraw = False
+486.9457 	EXP 	im_3: autoDraw = False
+486.9457 	EXP 	im_4: autoDraw = False
+486.9457 	EXP 	im_5: autoDraw = False
+486.9457 	EXP 	frame1: autoDraw = False
+486.9457 	EXP 	frame2: autoDraw = False
+486.9457 	EXP 	frame3: autoDraw = False
+486.9457 	EXP 	frame4: autoDraw = False
+486.9457 	EXP 	frame5: autoDraw = False
+486.9457 	EXP 	f1_text: autoDraw = False
+486.9457 	EXP 	f5_text: autoDraw = False
+486.9457 	EXP 	num1: autoDraw = False
+486.9457 	EXP 	num2: autoDraw = False
+486.9457 	EXP 	num3: autoDraw = False
+486.9457 	EXP 	num4: autoDraw = False
+486.9457 	EXP 	num5: autoDraw = False
+486.9457 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original000.png'
+486.9457 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated000.png'
+486.9457 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated000.png'
+486.9457 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated000.png'
+486.9457 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated000.png'
+486.9457 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated000.png'
+486.9457 	EXP 	im_1: pos = array([ 0.35, -0.3 ])
+486.9457 	EXP 	im_2: pos = array([ 0.7, -0.3])
+486.9457 	EXP 	im_3: pos = array([-0.35, -0.3 ])
+486.9457 	EXP 	im_4: pos = array([-0.7, -0.3])
+486.9457 	EXP 	im_5: pos = array([ 0. , -0.3])
+486.9457 	EXP 	target: autoDraw = True
+486.9457 	EXP 	im_1: autoDraw = True
+486.9457 	EXP 	im_2: autoDraw = True
+486.9457 	EXP 	im_3: autoDraw = True
+486.9457 	EXP 	im_4: autoDraw = True
+486.9457 	EXP 	im_5: autoDraw = True
+486.9457 	EXP 	frame1: autoDraw = True
+486.9457 	EXP 	frame2: autoDraw = True
+486.9457 	EXP 	frame3: autoDraw = True
+486.9457 	EXP 	frame4: autoDraw = True
+486.9457 	EXP 	frame5: autoDraw = True
+486.9457 	EXP 	f1_text: autoDraw = True
+486.9457 	EXP 	f5_text: autoDraw = True
+486.9457 	EXP 	num1: autoDraw = True
+486.9457 	EXP 	num2: autoDraw = True
+486.9457 	EXP 	num3: autoDraw = True
+486.9457 	EXP 	num4: autoDraw = True
+486.9457 	EXP 	num5: autoDraw = True
+488.9204 	DATA 	Keypress: num_4
+488.9484 	EXP 	im_1: pos = array([-0.7,  0. ])
+488.9484 	EXP 	im_1: autoDraw = True
+498.3763 	DATA 	Keypress: num_3
+498.4112 	EXP 	im_5: pos = array([-0.35,  0.  ])
+498.4112 	EXP 	im_5: autoDraw = True
+498.7042 	DATA 	Keypress: num_5
+498.7282 	EXP 	im_2: pos = array([0., 0.])
+498.7282 	EXP 	im_2: autoDraw = True
+499.7443 	DATA 	Keypress: num_2
+499.7797 	EXP 	im_3: pos = array([0.35, 0.  ])
+499.7797 	EXP 	im_3: autoDraw = True
+499.9762 	DATA 	Keypress: num_1
+499.9965 	EXP 	im_4: pos = array([0.7, 0. ])
+499.9965 	EXP 	im_4: autoDraw = True
+500.7282 	DATA 	Keypress: space
+500.7296 	EXP 	New trial (rep=0, index=26): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original014.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated014.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated014.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated014.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated014.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated014.png')])
+500.7642 	EXP 	target: autoDraw = False
+500.7642 	EXP 	im_1: autoDraw = False
+500.7642 	EXP 	im_2: autoDraw = False
+500.7642 	EXP 	im_3: autoDraw = False
+500.7642 	EXP 	im_4: autoDraw = False
+500.7642 	EXP 	im_5: autoDraw = False
+500.7642 	EXP 	frame1: autoDraw = False
+500.7642 	EXP 	frame2: autoDraw = False
+500.7642 	EXP 	frame3: autoDraw = False
+500.7642 	EXP 	frame4: autoDraw = False
+500.7642 	EXP 	frame5: autoDraw = False
+500.7642 	EXP 	f1_text: autoDraw = False
+500.7642 	EXP 	f5_text: autoDraw = False
+500.7642 	EXP 	num1: autoDraw = False
+500.7642 	EXP 	num2: autoDraw = False
+500.7642 	EXP 	num3: autoDraw = False
+500.7642 	EXP 	num4: autoDraw = False
+500.7642 	EXP 	num5: autoDraw = False
+500.7642 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original014.png'
+500.7642 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated014.png'
+500.7642 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated014.png'
+500.7642 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated014.png'
+500.7642 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated014.png'
+500.7642 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated014.png'
+500.7642 	EXP 	im_1: pos = array([-0.35, -0.3 ])
+500.7642 	EXP 	im_2: pos = array([-0.7, -0.3])
+500.7642 	EXP 	im_3: pos = array([ 0.35, -0.3 ])
+500.7642 	EXP 	im_4: pos = array([ 0. , -0.3])
+500.7642 	EXP 	im_5: pos = array([ 0.7, -0.3])
+500.7642 	EXP 	target: autoDraw = True
+500.7642 	EXP 	im_1: autoDraw = True
+500.7642 	EXP 	im_2: autoDraw = True
+500.7642 	EXP 	im_3: autoDraw = True
+500.7642 	EXP 	im_4: autoDraw = True
+500.7642 	EXP 	im_5: autoDraw = True
+500.7642 	EXP 	frame1: autoDraw = True
+500.7642 	EXP 	frame2: autoDraw = True
+500.7642 	EXP 	frame3: autoDraw = True
+500.7642 	EXP 	frame4: autoDraw = True
+500.7642 	EXP 	frame5: autoDraw = True
+500.7642 	EXP 	f1_text: autoDraw = True
+500.7642 	EXP 	f5_text: autoDraw = True
+500.7642 	EXP 	num1: autoDraw = True
+500.7642 	EXP 	num2: autoDraw = True
+500.7642 	EXP 	num3: autoDraw = True
+500.7642 	EXP 	num4: autoDraw = True
+500.7642 	EXP 	num5: autoDraw = True
+502.2402 	DATA 	Keypress: num_2
+502.2830 	EXP 	im_1: pos = array([-0.7,  0. ])
+502.2830 	EXP 	im_1: autoDraw = True
+509.2482 	DATA 	Keypress: num_3
+509.2757 	EXP 	im_4: pos = array([-0.35,  0.  ])
+509.2757 	EXP 	im_4: autoDraw = True
+510.7603 	DATA 	Keypress: num_4
+510.7944 	EXP 	im_3: pos = array([0., 0.])
+510.7944 	EXP 	im_3: autoDraw = True
+511.4241 	DATA 	Keypress: num_1
+511.4453 	EXP 	im_2: pos = array([0.35, 0.  ])
+511.4453 	EXP 	im_2: autoDraw = True
+511.9362 	DATA 	Keypress: num_5
+511.9626 	EXP 	im_5: pos = array([0.7, 0. ])
+511.9626 	EXP 	im_5: autoDraw = True
+512.6481 	DATA 	Keypress: space
+512.6495 	EXP 	New trial (rep=0, index=27): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original049.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated049.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated049.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated049.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated049.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated049.png')])
+512.6802 	EXP 	target: autoDraw = False
+512.6802 	EXP 	im_1: autoDraw = False
+512.6802 	EXP 	im_2: autoDraw = False
+512.6802 	EXP 	im_3: autoDraw = False
+512.6802 	EXP 	im_4: autoDraw = False
+512.6802 	EXP 	im_5: autoDraw = False
+512.6802 	EXP 	frame1: autoDraw = False
+512.6802 	EXP 	frame2: autoDraw = False
+512.6802 	EXP 	frame3: autoDraw = False
+512.6802 	EXP 	frame4: autoDraw = False
+512.6802 	EXP 	frame5: autoDraw = False
+512.6802 	EXP 	f1_text: autoDraw = False
+512.6802 	EXP 	f5_text: autoDraw = False
+512.6802 	EXP 	num1: autoDraw = False
+512.6802 	EXP 	num2: autoDraw = False
+512.6802 	EXP 	num3: autoDraw = False
+512.6802 	EXP 	num4: autoDraw = False
+512.6802 	EXP 	num5: autoDraw = False
+512.6802 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original049.png'
+512.6802 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated049.png'
+512.6802 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated049.png'
+512.6802 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated049.png'
+512.6802 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated049.png'
+512.6802 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated049.png'
+512.6802 	EXP 	im_1: pos = array([-0.7, -0.3])
+512.6802 	EXP 	im_2: pos = array([ 0.7, -0.3])
+512.6802 	EXP 	im_3: pos = array([ 0. , -0.3])
+512.6802 	EXP 	im_4: pos = array([-0.35, -0.3 ])
+512.6802 	EXP 	im_5: pos = array([ 0.35, -0.3 ])
+512.6802 	EXP 	target: autoDraw = True
+512.6802 	EXP 	im_1: autoDraw = True
+512.6802 	EXP 	im_2: autoDraw = True
+512.6802 	EXP 	im_3: autoDraw = True
+512.6802 	EXP 	im_4: autoDraw = True
+512.6802 	EXP 	im_5: autoDraw = True
+512.6802 	EXP 	frame1: autoDraw = True
+512.6802 	EXP 	frame2: autoDraw = True
+512.6802 	EXP 	frame3: autoDraw = True
+512.6802 	EXP 	frame4: autoDraw = True
+512.6802 	EXP 	frame5: autoDraw = True
+512.6802 	EXP 	f1_text: autoDraw = True
+512.6802 	EXP 	f5_text: autoDraw = True
+512.6802 	EXP 	num1: autoDraw = True
+512.6802 	EXP 	num2: autoDraw = True
+512.6802 	EXP 	num3: autoDraw = True
+512.6802 	EXP 	num4: autoDraw = True
+512.6802 	EXP 	num5: autoDraw = True
+514.0242 	DATA 	Keypress: num_1
+514.0654 	EXP 	im_1: pos = array([-0.7,  0. ])
+514.0654 	EXP 	im_1: autoDraw = True
+516.3444 	DATA 	Keypress: num_3
+516.3852 	EXP 	im_3: pos = array([-0.35,  0.  ])
+516.3852 	EXP 	im_3: autoDraw = True
+516.9121 	DATA 	Keypress: num_4
+516.9359 	EXP 	im_5: pos = array([0., 0.])
+516.9359 	EXP 	im_5: autoDraw = True
+523.8083 	DATA 	Keypress: num_5
+523.8452 	EXP 	im_2: pos = array([0.35, 0.  ])
+523.8452 	EXP 	im_2: autoDraw = True
+524.4161 	DATA 	Keypress: num_2
+524.4461 	EXP 	im_4: pos = array([0.7, 0. ])
+524.4461 	EXP 	im_4: autoDraw = True
+525.1602 	DATA 	Keypress: space
+525.1616 	EXP 	New trial (rep=0, index=28): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original010.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated010.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated010.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated010.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated010.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated010.png')])
+525.1971 	EXP 	target: autoDraw = False
+525.1971 	EXP 	im_1: autoDraw = False
+525.1971 	EXP 	im_2: autoDraw = False
+525.1971 	EXP 	im_3: autoDraw = False
+525.1971 	EXP 	im_4: autoDraw = False
+525.1971 	EXP 	im_5: autoDraw = False
+525.1971 	EXP 	frame1: autoDraw = False
+525.1971 	EXP 	frame2: autoDraw = False
+525.1971 	EXP 	frame3: autoDraw = False
+525.1971 	EXP 	frame4: autoDraw = False
+525.1971 	EXP 	frame5: autoDraw = False
+525.1971 	EXP 	f1_text: autoDraw = False
+525.1971 	EXP 	f5_text: autoDraw = False
+525.1971 	EXP 	num1: autoDraw = False
+525.1971 	EXP 	num2: autoDraw = False
+525.1971 	EXP 	num3: autoDraw = False
+525.1971 	EXP 	num4: autoDraw = False
+525.1971 	EXP 	num5: autoDraw = False
+525.1971 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original010.png'
+525.1971 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated010.png'
+525.1971 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated010.png'
+525.1971 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated010.png'
+525.1971 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated010.png'
+525.1971 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated010.png'
+525.1971 	EXP 	im_1: pos = array([ 0.7, -0.3])
+525.1971 	EXP 	im_2: pos = array([ 0.35, -0.3 ])
+525.1971 	EXP 	im_3: pos = array([-0.7, -0.3])
+525.1971 	EXP 	im_4: pos = array([ 0. , -0.3])
+525.1971 	EXP 	im_5: pos = array([-0.35, -0.3 ])
+525.1971 	EXP 	target: autoDraw = True
+525.1971 	EXP 	im_1: autoDraw = True
+525.1971 	EXP 	im_2: autoDraw = True
+525.1971 	EXP 	im_3: autoDraw = True
+525.1971 	EXP 	im_4: autoDraw = True
+525.1971 	EXP 	im_5: autoDraw = True
+525.1971 	EXP 	frame1: autoDraw = True
+525.1971 	EXP 	frame2: autoDraw = True
+525.1971 	EXP 	frame3: autoDraw = True
+525.1971 	EXP 	frame4: autoDraw = True
+525.1971 	EXP 	frame5: autoDraw = True
+525.1971 	EXP 	f1_text: autoDraw = True
+525.1971 	EXP 	f5_text: autoDraw = True
+525.1971 	EXP 	num1: autoDraw = True
+525.1971 	EXP 	num2: autoDraw = True
+525.1971 	EXP 	num3: autoDraw = True
+525.1971 	EXP 	num4: autoDraw = True
+525.1971 	EXP 	num5: autoDraw = True
+527.4083 	DATA 	Keypress: num_5
+527.4501 	EXP 	im_1: pos = array([-0.7,  0. ])
+527.4501 	EXP 	im_1: autoDraw = True
+529.2082 	DATA 	Keypress: num_4
+529.2358 	EXP 	im_2: pos = array([-0.35,  0.  ])
+529.2358 	EXP 	im_2: autoDraw = True
+538.1043 	DATA 	Keypress: num_3
+538.1310 	EXP 	im_4: pos = array([0., 0.])
+538.1310 	EXP 	im_4: autoDraw = True
+538.5849 	DATA 	Keypress: num_1
+538.6150 	EXP 	im_3: pos = array([0.35, 0.  ])
+538.6150 	EXP 	im_3: autoDraw = True
+539.1760 	DATA 	Keypress: num_2
+539.1991 	EXP 	im_5: pos = array([0.7, 0. ])
+539.1991 	EXP 	im_5: autoDraw = True
+539.9041 	DATA 	Keypress: space
+539.9053 	EXP 	New trial (rep=0, index=29): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original031.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated031.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated031.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated031.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated031.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated031.png')])
+539.9501 	EXP 	target: autoDraw = False
+539.9501 	EXP 	im_1: autoDraw = False
+539.9501 	EXP 	im_2: autoDraw = False
+539.9501 	EXP 	im_3: autoDraw = False
+539.9501 	EXP 	im_4: autoDraw = False
+539.9501 	EXP 	im_5: autoDraw = False
+539.9501 	EXP 	frame1: autoDraw = False
+539.9501 	EXP 	frame2: autoDraw = False
+539.9501 	EXP 	frame3: autoDraw = False
+539.9501 	EXP 	frame4: autoDraw = False
+539.9501 	EXP 	frame5: autoDraw = False
+539.9501 	EXP 	f1_text: autoDraw = False
+539.9501 	EXP 	f5_text: autoDraw = False
+539.9501 	EXP 	num1: autoDraw = False
+539.9501 	EXP 	num2: autoDraw = False
+539.9501 	EXP 	num3: autoDraw = False
+539.9501 	EXP 	num4: autoDraw = False
+539.9501 	EXP 	num5: autoDraw = False
+539.9501 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original031.png'
+539.9501 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated031.png'
+539.9501 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated031.png'
+539.9501 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated031.png'
+539.9501 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated031.png'
+539.9501 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated031.png'
+539.9501 	EXP 	im_1: pos = array([ 0.35, -0.3 ])
+539.9501 	EXP 	im_2: pos = array([ 0. , -0.3])
+539.9501 	EXP 	im_3: pos = array([ 0.7, -0.3])
+539.9501 	EXP 	im_4: pos = array([-0.7, -0.3])
+539.9501 	EXP 	im_5: pos = array([-0.35, -0.3 ])
+539.9501 	EXP 	target: autoDraw = True
+539.9501 	EXP 	im_1: autoDraw = True
+539.9501 	EXP 	im_2: autoDraw = True
+539.9501 	EXP 	im_3: autoDraw = True
+539.9501 	EXP 	im_4: autoDraw = True
+539.9501 	EXP 	im_5: autoDraw = True
+539.9501 	EXP 	frame1: autoDraw = True
+539.9501 	EXP 	frame2: autoDraw = True
+539.9501 	EXP 	frame3: autoDraw = True
+539.9501 	EXP 	frame4: autoDraw = True
+539.9501 	EXP 	frame5: autoDraw = True
+539.9501 	EXP 	f1_text: autoDraw = True
+539.9501 	EXP 	f5_text: autoDraw = True
+539.9501 	EXP 	num1: autoDraw = True
+539.9501 	EXP 	num2: autoDraw = True
+539.9501 	EXP 	num3: autoDraw = True
+539.9501 	EXP 	num4: autoDraw = True
+539.9501 	EXP 	num5: autoDraw = True
+542.3203 	DATA 	Keypress: num_4
+542.3534 	EXP 	im_1: pos = array([-0.7,  0. ])
+542.3534 	EXP 	im_1: autoDraw = True
+546.5202 	DATA 	Keypress: num_2
+546.5590 	EXP 	im_5: pos = array([-0.35,  0.  ])
+546.5590 	EXP 	im_5: autoDraw = True
+550.1683 	DATA 	Keypress: num_5
+550.1971 	EXP 	im_3: pos = array([0., 0.])
+550.1971 	EXP 	im_3: autoDraw = True
+552.1523 	DATA 	Keypress: num_3
+552.1831 	EXP 	im_2: pos = array([0.35, 0.  ])
+552.1831 	EXP 	im_2: autoDraw = True
+552.4403 	DATA 	Keypress: num_1
+552.4668 	EXP 	im_4: pos = array([0.7, 0. ])
+552.4668 	EXP 	im_4: autoDraw = True
+553.0562 	DATA 	Keypress: space
+553.0577 	EXP 	New trial (rep=0, index=30): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original040.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated040.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated040.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated040.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated040.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated040.png')])
+553.1011 	EXP 	target: autoDraw = False
+553.1011 	EXP 	im_1: autoDraw = False
+553.1011 	EXP 	im_2: autoDraw = False
+553.1011 	EXP 	im_3: autoDraw = False
+553.1011 	EXP 	im_4: autoDraw = False
+553.1011 	EXP 	im_5: autoDraw = False
+553.1011 	EXP 	frame1: autoDraw = False
+553.1011 	EXP 	frame2: autoDraw = False
+553.1011 	EXP 	frame3: autoDraw = False
+553.1011 	EXP 	frame4: autoDraw = False
+553.1011 	EXP 	frame5: autoDraw = False
+553.1011 	EXP 	f1_text: autoDraw = False
+553.1011 	EXP 	f5_text: autoDraw = False
+553.1011 	EXP 	num1: autoDraw = False
+553.1011 	EXP 	num2: autoDraw = False
+553.1011 	EXP 	num3: autoDraw = False
+553.1011 	EXP 	num4: autoDraw = False
+553.1011 	EXP 	num5: autoDraw = False
+553.1011 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original040.png'
+553.1011 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated040.png'
+553.1011 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated040.png'
+553.1011 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated040.png'
+553.1011 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated040.png'
+553.1011 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated040.png'
+553.1011 	EXP 	im_1: pos = array([ 0.7, -0.3])
+553.1011 	EXP 	im_2: pos = array([-0.35, -0.3 ])
+553.1011 	EXP 	im_3: pos = array([ 0.35, -0.3 ])
+553.1011 	EXP 	im_4: pos = array([-0.7, -0.3])
+553.1011 	EXP 	im_5: pos = array([ 0. , -0.3])
+553.1011 	EXP 	target: autoDraw = True
+553.1011 	EXP 	im_1: autoDraw = True
+553.1011 	EXP 	im_2: autoDraw = True
+553.1011 	EXP 	im_3: autoDraw = True
+553.1011 	EXP 	im_4: autoDraw = True
+553.1011 	EXP 	im_5: autoDraw = True
+553.1011 	EXP 	frame1: autoDraw = True
+553.1011 	EXP 	frame2: autoDraw = True
+553.1011 	EXP 	frame3: autoDraw = True
+553.1011 	EXP 	frame4: autoDraw = True
+553.1011 	EXP 	frame5: autoDraw = True
+553.1011 	EXP 	f1_text: autoDraw = True
+553.1011 	EXP 	f5_text: autoDraw = True
+553.1011 	EXP 	num1: autoDraw = True
+553.1011 	EXP 	num2: autoDraw = True
+553.1011 	EXP 	num3: autoDraw = True
+553.1011 	EXP 	num4: autoDraw = True
+553.1011 	EXP 	num5: autoDraw = True
+554.8163 	DATA 	Keypress: num_5
+554.8534 	EXP 	im_1: pos = array([-0.7,  0. ])
+554.8534 	EXP 	im_1: autoDraw = True
+567.2243 	DATA 	Keypress: num_3
+567.2534 	EXP 	im_5: pos = array([-0.35,  0.  ])
+567.2534 	EXP 	im_5: autoDraw = True
+567.7361 	DATA 	Keypress: num_4
+567.7708 	EXP 	im_3: pos = array([0., 0.])
+567.7708 	EXP 	im_3: autoDraw = True
+568.9843 	DATA 	Keypress: num_2
+569.0224 	EXP 	im_2: pos = array([0.35, 0.  ])
+569.0224 	EXP 	im_2: autoDraw = True
+569.1921 	DATA 	Keypress: num_1
+569.2227 	EXP 	im_4: pos = array([0.7, 0. ])
+569.2227 	EXP 	im_4: autoDraw = True
+569.7202 	DATA 	Keypress: space
+569.7214 	EXP 	New trial (rep=0, index=31): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original015.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated015.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated015.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated015.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated015.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated015.png')])
+569.7568 	EXP 	target: autoDraw = False
+569.7568 	EXP 	im_1: autoDraw = False
+569.7568 	EXP 	im_2: autoDraw = False
+569.7568 	EXP 	im_3: autoDraw = False
+569.7568 	EXP 	im_4: autoDraw = False
+569.7568 	EXP 	im_5: autoDraw = False
+569.7568 	EXP 	frame1: autoDraw = False
+569.7568 	EXP 	frame2: autoDraw = False
+569.7568 	EXP 	frame3: autoDraw = False
+569.7568 	EXP 	frame4: autoDraw = False
+569.7568 	EXP 	frame5: autoDraw = False
+569.7568 	EXP 	f1_text: autoDraw = False
+569.7568 	EXP 	f5_text: autoDraw = False
+569.7568 	EXP 	num1: autoDraw = False
+569.7568 	EXP 	num2: autoDraw = False
+569.7568 	EXP 	num3: autoDraw = False
+569.7568 	EXP 	num4: autoDraw = False
+569.7568 	EXP 	num5: autoDraw = False
+569.7568 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original015.png'
+569.7568 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated015.png'
+569.7568 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated015.png'
+569.7568 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated015.png'
+569.7568 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated015.png'
+569.7568 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated015.png'
+569.7568 	EXP 	im_1: pos = array([-0.7, -0.3])
+569.7568 	EXP 	im_2: pos = array([ 0.7, -0.3])
+569.7568 	EXP 	im_3: pos = array([-0.35, -0.3 ])
+569.7568 	EXP 	im_4: pos = array([ 0.35, -0.3 ])
+569.7568 	EXP 	im_5: pos = array([ 0. , -0.3])
+569.7568 	EXP 	target: autoDraw = True
+569.7568 	EXP 	im_1: autoDraw = True
+569.7568 	EXP 	im_2: autoDraw = True
+569.7568 	EXP 	im_3: autoDraw = True
+569.7568 	EXP 	im_4: autoDraw = True
+569.7568 	EXP 	im_5: autoDraw = True
+569.7568 	EXP 	frame1: autoDraw = True
+569.7568 	EXP 	frame2: autoDraw = True
+569.7568 	EXP 	frame3: autoDraw = True
+569.7568 	EXP 	frame4: autoDraw = True
+569.7568 	EXP 	frame5: autoDraw = True
+569.7568 	EXP 	f1_text: autoDraw = True
+569.7568 	EXP 	f5_text: autoDraw = True
+569.7568 	EXP 	num1: autoDraw = True
+569.7568 	EXP 	num2: autoDraw = True
+569.7568 	EXP 	num3: autoDraw = True
+569.7568 	EXP 	num4: autoDraw = True
+569.7568 	EXP 	num5: autoDraw = True
+573.3363 	DATA 	Keypress: num_1
+573.3783 	EXP 	im_1: pos = array([-0.7,  0. ])
+573.3783 	EXP 	im_1: autoDraw = True
+574.4082 	DATA 	Keypress: num_4
+574.4464 	EXP 	im_4: pos = array([-0.35,  0.  ])
+574.4464 	EXP 	im_4: autoDraw = True
+577.4883 	DATA 	Keypress: num_5
+577.5171 	EXP 	im_2: pos = array([0., 0.])
+577.5171 	EXP 	im_2: autoDraw = True
+578.2322 	DATA 	Keypress: num_2
+578.2515 	EXP 	im_3: pos = array([0.35, 0.  ])
+578.2515 	EXP 	im_3: autoDraw = True
+578.4562 	DATA 	Keypress: num_1
+579.1443 	DATA 	Keypress: num_3
+579.1861 	EXP 	im_5: pos = array([0.7, 0. ])
+579.1861 	EXP 	im_5: autoDraw = True
+580.0403 	DATA 	Keypress: space
+580.0416 	EXP 	New trial (rep=0, index=32): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original001.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated001.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated001.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated001.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated001.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated001.png')])
+580.0872 	EXP 	target: autoDraw = False
+580.0872 	EXP 	im_1: autoDraw = False
+580.0872 	EXP 	im_2: autoDraw = False
+580.0872 	EXP 	im_3: autoDraw = False
+580.0872 	EXP 	im_4: autoDraw = False
+580.0872 	EXP 	im_5: autoDraw = False
+580.0872 	EXP 	frame1: autoDraw = False
+580.0872 	EXP 	frame2: autoDraw = False
+580.0872 	EXP 	frame3: autoDraw = False
+580.0872 	EXP 	frame4: autoDraw = False
+580.0872 	EXP 	frame5: autoDraw = False
+580.0872 	EXP 	f1_text: autoDraw = False
+580.0872 	EXP 	f5_text: autoDraw = False
+580.0872 	EXP 	num1: autoDraw = False
+580.0872 	EXP 	num2: autoDraw = False
+580.0872 	EXP 	num3: autoDraw = False
+580.0872 	EXP 	num4: autoDraw = False
+580.0872 	EXP 	num5: autoDraw = False
+580.0872 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original001.png'
+580.0872 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated001.png'
+580.0872 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated001.png'
+580.0872 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated001.png'
+580.0872 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated001.png'
+580.0872 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated001.png'
+580.0872 	EXP 	im_1: pos = array([-0.35, -0.3 ])
+580.0872 	EXP 	im_2: pos = array([ 0. , -0.3])
+580.0872 	EXP 	im_3: pos = array([ 0.35, -0.3 ])
+580.0872 	EXP 	im_4: pos = array([-0.7, -0.3])
+580.0872 	EXP 	im_5: pos = array([ 0.7, -0.3])
+580.0872 	EXP 	target: autoDraw = True
+580.0872 	EXP 	im_1: autoDraw = True
+580.0872 	EXP 	im_2: autoDraw = True
+580.0872 	EXP 	im_3: autoDraw = True
+580.0872 	EXP 	im_4: autoDraw = True
+580.0872 	EXP 	im_5: autoDraw = True
+580.0872 	EXP 	frame1: autoDraw = True
+580.0872 	EXP 	frame2: autoDraw = True
+580.0872 	EXP 	frame3: autoDraw = True
+580.0872 	EXP 	frame4: autoDraw = True
+580.0872 	EXP 	frame5: autoDraw = True
+580.0872 	EXP 	f1_text: autoDraw = True
+580.0872 	EXP 	f5_text: autoDraw = True
+580.0872 	EXP 	num1: autoDraw = True
+580.0872 	EXP 	num2: autoDraw = True
+580.0872 	EXP 	num3: autoDraw = True
+580.0872 	EXP 	num4: autoDraw = True
+580.0872 	EXP 	num5: autoDraw = True
+581.7602 	DATA 	Keypress: num_2
+581.7895 	EXP 	im_1: pos = array([-0.7,  0. ])
+581.7895 	EXP 	im_1: autoDraw = True
+588.4883 	DATA 	Keypress: num_5
+588.5152 	EXP 	im_5: pos = array([-0.35,  0.  ])
+588.5152 	EXP 	im_5: autoDraw = True
+589.6883 	DATA 	Keypress: num_3
+589.7168 	EXP 	im_2: pos = array([0., 0.])
+589.7168 	EXP 	im_2: autoDraw = True
+592.6963 	DATA 	Keypress: num_1
+592.7376 	EXP 	im_4: pos = array([0.35, 0.  ])
+592.7376 	EXP 	im_4: autoDraw = True
+594.8003 	DATA 	Keypress: num_4
+594.8404 	EXP 	im_3: pos = array([0.7, 0. ])
+594.8404 	EXP 	im_3: autoDraw = True
+595.9522 	DATA 	Keypress: space
+595.9536 	EXP 	New trial (rep=0, index=33): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original023.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated023.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated023.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated023.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated023.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated023.png')])
+595.9917 	EXP 	target: autoDraw = False
+595.9917 	EXP 	im_1: autoDraw = False
+595.9917 	EXP 	im_2: autoDraw = False
+595.9917 	EXP 	im_3: autoDraw = False
+595.9917 	EXP 	im_4: autoDraw = False
+595.9917 	EXP 	im_5: autoDraw = False
+595.9917 	EXP 	frame1: autoDraw = False
+595.9917 	EXP 	frame2: autoDraw = False
+595.9917 	EXP 	frame3: autoDraw = False
+595.9917 	EXP 	frame4: autoDraw = False
+595.9917 	EXP 	frame5: autoDraw = False
+595.9917 	EXP 	f1_text: autoDraw = False
+595.9917 	EXP 	f5_text: autoDraw = False
+595.9917 	EXP 	num1: autoDraw = False
+595.9917 	EXP 	num2: autoDraw = False
+595.9917 	EXP 	num3: autoDraw = False
+595.9917 	EXP 	num4: autoDraw = False
+595.9917 	EXP 	num5: autoDraw = False
+595.9917 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original023.png'
+595.9917 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated023.png'
+595.9917 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated023.png'
+595.9917 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated023.png'
+595.9917 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated023.png'
+595.9917 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated023.png'
+595.9917 	EXP 	im_1: pos = array([-0.35, -0.3 ])
+595.9917 	EXP 	im_2: pos = array([ 0.7, -0.3])
+595.9917 	EXP 	im_3: pos = array([-0.7, -0.3])
+595.9917 	EXP 	im_4: pos = array([ 0. , -0.3])
+595.9917 	EXP 	im_5: pos = array([ 0.35, -0.3 ])
+595.9917 	EXP 	target: autoDraw = True
+595.9917 	EXP 	im_1: autoDraw = True
+595.9917 	EXP 	im_2: autoDraw = True
+595.9917 	EXP 	im_3: autoDraw = True
+595.9917 	EXP 	im_4: autoDraw = True
+595.9917 	EXP 	im_5: autoDraw = True
+595.9917 	EXP 	frame1: autoDraw = True
+595.9917 	EXP 	frame2: autoDraw = True
+595.9917 	EXP 	frame3: autoDraw = True
+595.9917 	EXP 	frame4: autoDraw = True
+595.9917 	EXP 	frame5: autoDraw = True
+595.9917 	EXP 	f1_text: autoDraw = True
+595.9917 	EXP 	f5_text: autoDraw = True
+595.9917 	EXP 	num1: autoDraw = True
+595.9917 	EXP 	num2: autoDraw = True
+595.9917 	EXP 	num3: autoDraw = True
+595.9917 	EXP 	num4: autoDraw = True
+595.9917 	EXP 	num5: autoDraw = True
+597.5603 	DATA 	Keypress: num_2
+597.5942 	EXP 	im_1: pos = array([-0.7,  0. ])
+597.5942 	EXP 	im_1: autoDraw = True
+606.2642 	DATA 	Keypress: num_5
+606.3059 	EXP 	im_2: pos = array([-0.35,  0.  ])
+606.3059 	EXP 	im_2: autoDraw = True
+609.3443 	DATA 	Keypress: num_4
+609.3766 	EXP 	im_5: pos = array([0., 0.])
+609.3766 	EXP 	im_5: autoDraw = True
+611.9363 	DATA 	Keypress: num_1
+611.9634 	EXP 	im_3: pos = array([0.35, 0.  ])
+611.9634 	EXP 	im_3: autoDraw = True
+612.2481 	DATA 	Keypress: num_3
+612.2804 	EXP 	im_4: pos = array([0.7, 0. ])
+612.2804 	EXP 	im_4: autoDraw = True
+613.0161 	DATA 	Keypress: space
+613.0173 	EXP 	New trial (rep=0, index=34): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original030.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated030.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated030.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated030.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated030.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated030.png')])
+613.0481 	EXP 	target: autoDraw = False
+613.0481 	EXP 	im_1: autoDraw = False
+613.0481 	EXP 	im_2: autoDraw = False
+613.0481 	EXP 	im_3: autoDraw = False
+613.0481 	EXP 	im_4: autoDraw = False
+613.0481 	EXP 	im_5: autoDraw = False
+613.0481 	EXP 	frame1: autoDraw = False
+613.0481 	EXP 	frame2: autoDraw = False
+613.0481 	EXP 	frame3: autoDraw = False
+613.0481 	EXP 	frame4: autoDraw = False
+613.0481 	EXP 	frame5: autoDraw = False
+613.0481 	EXP 	f1_text: autoDraw = False
+613.0481 	EXP 	f5_text: autoDraw = False
+613.0481 	EXP 	num1: autoDraw = False
+613.0481 	EXP 	num2: autoDraw = False
+613.0481 	EXP 	num3: autoDraw = False
+613.0481 	EXP 	num4: autoDraw = False
+613.0481 	EXP 	num5: autoDraw = False
+613.0481 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original030.png'
+613.0481 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated030.png'
+613.0481 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated030.png'
+613.0481 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated030.png'
+613.0481 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated030.png'
+613.0481 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated030.png'
+613.0481 	EXP 	im_1: pos = array([ 0.35, -0.3 ])
+613.0481 	EXP 	im_2: pos = array([-0.35, -0.3 ])
+613.0481 	EXP 	im_3: pos = array([-0.7, -0.3])
+613.0481 	EXP 	im_4: pos = array([ 0. , -0.3])
+613.0481 	EXP 	im_5: pos = array([ 0.7, -0.3])
+613.0481 	EXP 	target: autoDraw = True
+613.0481 	EXP 	im_1: autoDraw = True
+613.0481 	EXP 	im_2: autoDraw = True
+613.0481 	EXP 	im_3: autoDraw = True
+613.0481 	EXP 	im_4: autoDraw = True
+613.0481 	EXP 	im_5: autoDraw = True
+613.0481 	EXP 	frame1: autoDraw = True
+613.0481 	EXP 	frame2: autoDraw = True
+613.0481 	EXP 	frame3: autoDraw = True
+613.0481 	EXP 	frame4: autoDraw = True
+613.0481 	EXP 	frame5: autoDraw = True
+613.0481 	EXP 	f1_text: autoDraw = True
+613.0481 	EXP 	f5_text: autoDraw = True
+613.0481 	EXP 	num1: autoDraw = True
+613.0481 	EXP 	num2: autoDraw = True
+613.0481 	EXP 	num3: autoDraw = True
+613.0481 	EXP 	num4: autoDraw = True
+613.0481 	EXP 	num5: autoDraw = True
+619.7442 	DATA 	Keypress: num_4
+619.7738 	EXP 	im_1: pos = array([-0.7,  0. ])
+619.7738 	EXP 	im_1: autoDraw = True
+620.5042 	DATA 	Keypress: num_5
+620.5249 	EXP 	im_5: pos = array([-0.35,  0.  ])
+620.5249 	EXP 	im_5: autoDraw = True
+622.7371 	DATA 	Keypress: num_2
+622.7779 	EXP 	im_2: pos = array([0., 0.])
+622.7779 	EXP 	im_2: autoDraw = True
+624.6483 	DATA 	Keypress: num_1
+624.6804 	EXP 	im_3: pos = array([0.35, 0.  ])
+624.6804 	EXP 	im_3: autoDraw = True
+625.4801 	DATA 	Keypress: num_3
+625.5149 	EXP 	im_4: pos = array([0.7, 0. ])
+625.5149 	EXP 	im_4: autoDraw = True
+626.2721 	DATA 	Keypress: space
+626.2733 	EXP 	New trial (rep=0, index=35): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original002.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated002.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated002.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated002.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated002.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated002.png')])
+626.3160 	EXP 	target: autoDraw = False
+626.3160 	EXP 	im_1: autoDraw = False
+626.3160 	EXP 	im_2: autoDraw = False
+626.3160 	EXP 	im_3: autoDraw = False
+626.3160 	EXP 	im_4: autoDraw = False
+626.3160 	EXP 	im_5: autoDraw = False
+626.3160 	EXP 	frame1: autoDraw = False
+626.3160 	EXP 	frame2: autoDraw = False
+626.3160 	EXP 	frame3: autoDraw = False
+626.3160 	EXP 	frame4: autoDraw = False
+626.3160 	EXP 	frame5: autoDraw = False
+626.3160 	EXP 	f1_text: autoDraw = False
+626.3160 	EXP 	f5_text: autoDraw = False
+626.3160 	EXP 	num1: autoDraw = False
+626.3160 	EXP 	num2: autoDraw = False
+626.3160 	EXP 	num3: autoDraw = False
+626.3160 	EXP 	num4: autoDraw = False
+626.3160 	EXP 	num5: autoDraw = False
+626.3160 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original002.png'
+626.3160 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated002.png'
+626.3160 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated002.png'
+626.3160 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated002.png'
+626.3160 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated002.png'
+626.3160 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated002.png'
+626.3160 	EXP 	im_1: pos = array([ 0.7, -0.3])
+626.3160 	EXP 	im_2: pos = array([-0.35, -0.3 ])
+626.3160 	EXP 	im_3: pos = array([-0.7, -0.3])
+626.3160 	EXP 	im_4: pos = array([ 0.35, -0.3 ])
+626.3160 	EXP 	im_5: pos = array([ 0. , -0.3])
+626.3160 	EXP 	target: autoDraw = True
+626.3160 	EXP 	im_1: autoDraw = True
+626.3160 	EXP 	im_2: autoDraw = True
+626.3160 	EXP 	im_3: autoDraw = True
+626.3160 	EXP 	im_4: autoDraw = True
+626.3160 	EXP 	im_5: autoDraw = True
+626.3160 	EXP 	frame1: autoDraw = True
+626.3160 	EXP 	frame2: autoDraw = True
+626.3160 	EXP 	frame3: autoDraw = True
+626.3160 	EXP 	frame4: autoDraw = True
+626.3160 	EXP 	frame5: autoDraw = True
+626.3160 	EXP 	f1_text: autoDraw = True
+626.3160 	EXP 	f5_text: autoDraw = True
+626.3160 	EXP 	num1: autoDraw = True
+626.3160 	EXP 	num2: autoDraw = True
+626.3160 	EXP 	num3: autoDraw = True
+626.3160 	EXP 	num4: autoDraw = True
+626.3160 	EXP 	num5: autoDraw = True
+628.3763 	DATA 	Keypress: num_5
+628.4188 	EXP 	im_1: pos = array([-0.7,  0. ])
+628.4188 	EXP 	im_1: autoDraw = True
+631.3523 	DATA 	Keypress: num_3
+631.3894 	EXP 	im_5: pos = array([-0.35,  0.  ])
+631.3894 	EXP 	im_5: autoDraw = True
+637.4652 	DATA 	Keypress: num_4
+637.4976 	EXP 	im_4: pos = array([0., 0.])
+637.4976 	EXP 	im_4: autoDraw = True
+639.0242 	DATA 	Keypress: num_1
+639.0664 	EXP 	im_3: pos = array([0.35, 0.  ])
+639.0664 	EXP 	im_3: autoDraw = True
+639.2241 	DATA 	Keypress: num_2
+639.2499 	EXP 	im_2: pos = array([0.7, 0. ])
+639.2499 	EXP 	im_2: autoDraw = True
+639.8961 	DATA 	Keypress: space
+639.8975 	EXP 	New trial (rep=0, index=36): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original047.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated047.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated047.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated047.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated047.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated047.png')])
+639.9343 	EXP 	target: autoDraw = False
+639.9343 	EXP 	im_1: autoDraw = False
+639.9343 	EXP 	im_2: autoDraw = False
+639.9343 	EXP 	im_3: autoDraw = False
+639.9343 	EXP 	im_4: autoDraw = False
+639.9343 	EXP 	im_5: autoDraw = False
+639.9343 	EXP 	frame1: autoDraw = False
+639.9343 	EXP 	frame2: autoDraw = False
+639.9343 	EXP 	frame3: autoDraw = False
+639.9343 	EXP 	frame4: autoDraw = False
+639.9343 	EXP 	frame5: autoDraw = False
+639.9343 	EXP 	f1_text: autoDraw = False
+639.9343 	EXP 	f5_text: autoDraw = False
+639.9343 	EXP 	num1: autoDraw = False
+639.9343 	EXP 	num2: autoDraw = False
+639.9343 	EXP 	num3: autoDraw = False
+639.9343 	EXP 	num4: autoDraw = False
+639.9343 	EXP 	num5: autoDraw = False
+639.9343 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original047.png'
+639.9343 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated047.png'
+639.9343 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated047.png'
+639.9343 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated047.png'
+639.9343 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated047.png'
+639.9343 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated047.png'
+639.9343 	EXP 	im_1: pos = array([ 0.7, -0.3])
+639.9343 	EXP 	im_2: pos = array([-0.7, -0.3])
+639.9343 	EXP 	im_3: pos = array([-0.35, -0.3 ])
+639.9343 	EXP 	im_4: pos = array([ 0.35, -0.3 ])
+639.9343 	EXP 	im_5: pos = array([ 0. , -0.3])
+639.9343 	EXP 	target: autoDraw = True
+639.9343 	EXP 	im_1: autoDraw = True
+639.9343 	EXP 	im_2: autoDraw = True
+639.9343 	EXP 	im_3: autoDraw = True
+639.9343 	EXP 	im_4: autoDraw = True
+639.9343 	EXP 	im_5: autoDraw = True
+639.9343 	EXP 	frame1: autoDraw = True
+639.9343 	EXP 	frame2: autoDraw = True
+639.9343 	EXP 	frame3: autoDraw = True
+639.9343 	EXP 	frame4: autoDraw = True
+639.9343 	EXP 	frame5: autoDraw = True
+639.9343 	EXP 	f1_text: autoDraw = True
+639.9343 	EXP 	f5_text: autoDraw = True
+639.9343 	EXP 	num1: autoDraw = True
+639.9343 	EXP 	num2: autoDraw = True
+639.9343 	EXP 	num3: autoDraw = True
+639.9343 	EXP 	num4: autoDraw = True
+639.9343 	EXP 	num5: autoDraw = True
+642.9603 	DATA 	Keypress: num_5
+642.9883 	EXP 	im_1: pos = array([-0.7,  0. ])
+642.9883 	EXP 	im_1: autoDraw = True
+643.8082 	DATA 	Keypress: num_1
+643.8395 	EXP 	im_2: pos = array([-0.35,  0.  ])
+643.8395 	EXP 	im_2: autoDraw = True
+645.8643 	DATA 	Keypress: num_2
+645.8921 	EXP 	im_3: pos = array([0., 0.])
+645.8921 	EXP 	im_3: autoDraw = True
+646.8802 	DATA 	Keypress: num_3
+646.9103 	EXP 	im_5: pos = array([0.35, 0.  ])
+646.9103 	EXP 	im_5: autoDraw = True
+647.2083 	DATA 	Keypress: num_4
+647.2273 	EXP 	im_4: pos = array([0.7, 0. ])
+647.2273 	EXP 	im_4: autoDraw = True
+648.0321 	DATA 	Keypress: space
+648.0333 	EXP 	New trial (rep=0, index=37): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original042.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated042.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated042.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated042.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated042.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated042.png')])
+648.0785 	EXP 	target: autoDraw = False
+648.0785 	EXP 	im_1: autoDraw = False
+648.0785 	EXP 	im_2: autoDraw = False
+648.0785 	EXP 	im_3: autoDraw = False
+648.0785 	EXP 	im_4: autoDraw = False
+648.0785 	EXP 	im_5: autoDraw = False
+648.0785 	EXP 	frame1: autoDraw = False
+648.0785 	EXP 	frame2: autoDraw = False
+648.0785 	EXP 	frame3: autoDraw = False
+648.0785 	EXP 	frame4: autoDraw = False
+648.0785 	EXP 	frame5: autoDraw = False
+648.0785 	EXP 	f1_text: autoDraw = False
+648.0785 	EXP 	f5_text: autoDraw = False
+648.0785 	EXP 	num1: autoDraw = False
+648.0785 	EXP 	num2: autoDraw = False
+648.0785 	EXP 	num3: autoDraw = False
+648.0785 	EXP 	num4: autoDraw = False
+648.0785 	EXP 	num5: autoDraw = False
+648.0785 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original042.png'
+648.0785 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated042.png'
+648.0785 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated042.png'
+648.0785 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated042.png'
+648.0785 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated042.png'
+648.0785 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated042.png'
+648.0785 	EXP 	im_1: pos = array([ 0.7, -0.3])
+648.0785 	EXP 	im_2: pos = array([-0.7, -0.3])
+648.0785 	EXP 	im_3: pos = array([-0.35, -0.3 ])
+648.0785 	EXP 	im_4: pos = array([ 0.35, -0.3 ])
+648.0785 	EXP 	im_5: pos = array([ 0. , -0.3])
+648.0785 	EXP 	target: autoDraw = True
+648.0785 	EXP 	im_1: autoDraw = True
+648.0785 	EXP 	im_2: autoDraw = True
+648.0785 	EXP 	im_3: autoDraw = True
+648.0785 	EXP 	im_4: autoDraw = True
+648.0785 	EXP 	im_5: autoDraw = True
+648.0785 	EXP 	frame1: autoDraw = True
+648.0785 	EXP 	frame2: autoDraw = True
+648.0785 	EXP 	frame3: autoDraw = True
+648.0785 	EXP 	frame4: autoDraw = True
+648.0785 	EXP 	frame5: autoDraw = True
+648.0785 	EXP 	f1_text: autoDraw = True
+648.0785 	EXP 	f5_text: autoDraw = True
+648.0785 	EXP 	num1: autoDraw = True
+648.0785 	EXP 	num2: autoDraw = True
+648.0785 	EXP 	num3: autoDraw = True
+648.0785 	EXP 	num4: autoDraw = True
+648.0785 	EXP 	num5: autoDraw = True
+650.1123 	DATA 	Keypress: num_5
+650.1480 	EXP 	im_1: pos = array([-0.7,  0. ])
+650.1480 	EXP 	im_1: autoDraw = True
+657.6083 	DATA 	Keypress: num_3
+657.6412 	EXP 	im_5: pos = array([-0.35,  0.  ])
+657.6412 	EXP 	im_5: autoDraw = True
+658.7043 	DATA 	Keypress: num_1
+658.7427 	EXP 	im_2: pos = array([0., 0.])
+658.7427 	EXP 	im_2: autoDraw = True
+659.1042 	DATA 	Keypress: num_2
+659.1266 	EXP 	im_3: pos = array([0.35, 0.  ])
+659.1266 	EXP 	im_3: autoDraw = True
+659.8881 	DATA 	Keypress: num_4
+659.9110 	EXP 	im_4: pos = array([0.7, 0. ])
+659.9110 	EXP 	im_4: autoDraw = True
+660.3440 	DATA 	Keypress: space
+660.3452 	EXP 	New trial (rep=0, index=38): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original022.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated022.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated022.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated022.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated022.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated022.png')])
+660.3784 	EXP 	target: autoDraw = False
+660.3784 	EXP 	im_1: autoDraw = False
+660.3784 	EXP 	im_2: autoDraw = False
+660.3784 	EXP 	im_3: autoDraw = False
+660.3784 	EXP 	im_4: autoDraw = False
+660.3784 	EXP 	im_5: autoDraw = False
+660.3784 	EXP 	frame1: autoDraw = False
+660.3784 	EXP 	frame2: autoDraw = False
+660.3784 	EXP 	frame3: autoDraw = False
+660.3784 	EXP 	frame4: autoDraw = False
+660.3784 	EXP 	frame5: autoDraw = False
+660.3784 	EXP 	f1_text: autoDraw = False
+660.3784 	EXP 	f5_text: autoDraw = False
+660.3784 	EXP 	num1: autoDraw = False
+660.3784 	EXP 	num2: autoDraw = False
+660.3784 	EXP 	num3: autoDraw = False
+660.3784 	EXP 	num4: autoDraw = False
+660.3784 	EXP 	num5: autoDraw = False
+660.3784 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original022.png'
+660.3784 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated022.png'
+660.3784 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated022.png'
+660.3784 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated022.png'
+660.3784 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated022.png'
+660.3784 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated022.png'
+660.3784 	EXP 	im_1: pos = array([-0.35, -0.3 ])
+660.3784 	EXP 	im_2: pos = array([ 0.7, -0.3])
+660.3784 	EXP 	im_3: pos = array([-0.7, -0.3])
+660.3784 	EXP 	im_4: pos = array([ 0. , -0.3])
+660.3784 	EXP 	im_5: pos = array([ 0.35, -0.3 ])
+660.3784 	EXP 	target: autoDraw = True
+660.3784 	EXP 	im_1: autoDraw = True
+660.3784 	EXP 	im_2: autoDraw = True
+660.3784 	EXP 	im_3: autoDraw = True
+660.3784 	EXP 	im_4: autoDraw = True
+660.3784 	EXP 	im_5: autoDraw = True
+660.3784 	EXP 	frame1: autoDraw = True
+660.3784 	EXP 	frame2: autoDraw = True
+660.3784 	EXP 	frame3: autoDraw = True
+660.3784 	EXP 	frame4: autoDraw = True
+660.3784 	EXP 	frame5: autoDraw = True
+660.3784 	EXP 	f1_text: autoDraw = True
+660.3784 	EXP 	f5_text: autoDraw = True
+660.3784 	EXP 	num1: autoDraw = True
+660.3784 	EXP 	num2: autoDraw = True
+660.3784 	EXP 	num3: autoDraw = True
+660.3784 	EXP 	num4: autoDraw = True
+660.3784 	EXP 	num5: autoDraw = True
+670.0083 	DATA 	Keypress: num_2
+670.0413 	EXP 	im_1: pos = array([-0.7,  0. ])
+670.0413 	EXP 	im_1: autoDraw = True
+671.1283 	DATA 	Keypress: num_5
+671.1595 	EXP 	im_2: pos = array([-0.35,  0.  ])
+671.1595 	EXP 	im_2: autoDraw = True
+678.9203 	DATA 	Keypress: num_4
+678.9532 	EXP 	im_5: pos = array([0., 0.])
+678.9532 	EXP 	im_5: autoDraw = True
+680.2882 	DATA 	Keypress: num_1
+680.3218 	EXP 	im_3: pos = array([0.35, 0.  ])
+680.3218 	EXP 	im_3: autoDraw = True
+680.5921 	DATA 	Keypress: num_3
+680.6220 	EXP 	im_4: pos = array([0.7, 0. ])
+680.6220 	EXP 	im_4: autoDraw = True
+681.4082 	DATA 	Keypress: space
+681.4094 	EXP 	New trial (rep=0, index=39): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original006.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated006.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated006.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated006.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated006.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated006.png')])
+681.4566 	EXP 	target: autoDraw = False
+681.4566 	EXP 	im_1: autoDraw = False
+681.4566 	EXP 	im_2: autoDraw = False
+681.4566 	EXP 	im_3: autoDraw = False
+681.4566 	EXP 	im_4: autoDraw = False
+681.4566 	EXP 	im_5: autoDraw = False
+681.4566 	EXP 	frame1: autoDraw = False
+681.4566 	EXP 	frame2: autoDraw = False
+681.4566 	EXP 	frame3: autoDraw = False
+681.4566 	EXP 	frame4: autoDraw = False
+681.4566 	EXP 	frame5: autoDraw = False
+681.4566 	EXP 	f1_text: autoDraw = False
+681.4566 	EXP 	f5_text: autoDraw = False
+681.4566 	EXP 	num1: autoDraw = False
+681.4566 	EXP 	num2: autoDraw = False
+681.4566 	EXP 	num3: autoDraw = False
+681.4566 	EXP 	num4: autoDraw = False
+681.4566 	EXP 	num5: autoDraw = False
+681.4566 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original006.png'
+681.4566 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated006.png'
+681.4566 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated006.png'
+681.4566 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated006.png'
+681.4566 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated006.png'
+681.4566 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated006.png'
+681.4566 	EXP 	im_1: pos = array([ 0.7, -0.3])
+681.4566 	EXP 	im_2: pos = array([ 0.35, -0.3 ])
+681.4566 	EXP 	im_3: pos = array([-0.35, -0.3 ])
+681.4566 	EXP 	im_4: pos = array([-0.7, -0.3])
+681.4566 	EXP 	im_5: pos = array([ 0. , -0.3])
+681.4566 	EXP 	target: autoDraw = True
+681.4566 	EXP 	im_1: autoDraw = True
+681.4566 	EXP 	im_2: autoDraw = True
+681.4566 	EXP 	im_3: autoDraw = True
+681.4566 	EXP 	im_4: autoDraw = True
+681.4566 	EXP 	im_5: autoDraw = True
+681.4566 	EXP 	frame1: autoDraw = True
+681.4566 	EXP 	frame2: autoDraw = True
+681.4566 	EXP 	frame3: autoDraw = True
+681.4566 	EXP 	frame4: autoDraw = True
+681.4566 	EXP 	frame5: autoDraw = True
+681.4566 	EXP 	f1_text: autoDraw = True
+681.4566 	EXP 	f5_text: autoDraw = True
+681.4566 	EXP 	num1: autoDraw = True
+681.4566 	EXP 	num2: autoDraw = True
+681.4566 	EXP 	num3: autoDraw = True
+681.4566 	EXP 	num4: autoDraw = True
+681.4566 	EXP 	num5: autoDraw = True
+682.9123 	DATA 	Keypress: num_5
+682.9419 	EXP 	im_1: pos = array([-0.7,  0. ])
+682.9419 	EXP 	im_1: autoDraw = True
+689.5842 	DATA 	Keypress: num_4
+689.6174 	EXP 	im_2: pos = array([-0.35,  0.  ])
+689.6174 	EXP 	im_2: autoDraw = True
+690.9363 	DATA 	Keypress: num_3
+690.9693 	EXP 	im_5: pos = array([0., 0.])
+690.9693 	EXP 	im_5: autoDraw = True
+691.2800 	DATA 	Keypress: num_2
+691.3031 	EXP 	im_3: pos = array([0.35, 0.  ])
+691.3031 	EXP 	im_3: autoDraw = True
+691.5921 	DATA 	Keypress: num_1
+691.6202 	EXP 	im_4: pos = array([0.7, 0. ])
+691.6202 	EXP 	im_4: autoDraw = True
+692.3762 	DATA 	Keypress: space
+692.3776 	EXP 	New trial (rep=0, index=40): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original025.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated025.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated025.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated025.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated025.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated025.png')])
+692.4213 	EXP 	target: autoDraw = False
+692.4213 	EXP 	im_1: autoDraw = False
+692.4213 	EXP 	im_2: autoDraw = False
+692.4213 	EXP 	im_3: autoDraw = False
+692.4213 	EXP 	im_4: autoDraw = False
+692.4213 	EXP 	im_5: autoDraw = False
+692.4213 	EXP 	frame1: autoDraw = False
+692.4213 	EXP 	frame2: autoDraw = False
+692.4213 	EXP 	frame3: autoDraw = False
+692.4213 	EXP 	frame4: autoDraw = False
+692.4213 	EXP 	frame5: autoDraw = False
+692.4213 	EXP 	f1_text: autoDraw = False
+692.4213 	EXP 	f5_text: autoDraw = False
+692.4213 	EXP 	num1: autoDraw = False
+692.4213 	EXP 	num2: autoDraw = False
+692.4213 	EXP 	num3: autoDraw = False
+692.4213 	EXP 	num4: autoDraw = False
+692.4213 	EXP 	num5: autoDraw = False
+692.4213 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original025.png'
+692.4213 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated025.png'
+692.4213 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated025.png'
+692.4213 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated025.png'
+692.4213 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated025.png'
+692.4213 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated025.png'
+692.4213 	EXP 	im_1: pos = array([ 0.7, -0.3])
+692.4213 	EXP 	im_2: pos = array([ 0.35, -0.3 ])
+692.4213 	EXP 	im_3: pos = array([-0.7, -0.3])
+692.4213 	EXP 	im_4: pos = array([ 0. , -0.3])
+692.4213 	EXP 	im_5: pos = array([-0.35, -0.3 ])
+692.4213 	EXP 	target: autoDraw = True
+692.4213 	EXP 	im_1: autoDraw = True
+692.4213 	EXP 	im_2: autoDraw = True
+692.4213 	EXP 	im_3: autoDraw = True
+692.4213 	EXP 	im_4: autoDraw = True
+692.4213 	EXP 	im_5: autoDraw = True
+692.4213 	EXP 	frame1: autoDraw = True
+692.4213 	EXP 	frame2: autoDraw = True
+692.4213 	EXP 	frame3: autoDraw = True
+692.4213 	EXP 	frame4: autoDraw = True
+692.4213 	EXP 	frame5: autoDraw = True
+692.4213 	EXP 	f1_text: autoDraw = True
+692.4213 	EXP 	f5_text: autoDraw = True
+692.4213 	EXP 	num1: autoDraw = True
+692.4213 	EXP 	num2: autoDraw = True
+692.4213 	EXP 	num3: autoDraw = True
+692.4213 	EXP 	num4: autoDraw = True
+692.4213 	EXP 	num5: autoDraw = True
+694.0883 	DATA 	Keypress: num_5
+694.1236 	EXP 	im_1: pos = array([-0.7,  0. ])
+694.1236 	EXP 	im_1: autoDraw = True
+702.3363 	DATA 	Keypress: num_4
+702.3679 	EXP 	im_2: pos = array([-0.35,  0.  ])
+702.3679 	EXP 	im_2: autoDraw = True
+703.0241 	DATA 	Keypress: num_1
+703.0521 	EXP 	im_3: pos = array([0., 0.])
+703.0521 	EXP 	im_3: autoDraw = True
+703.8723 	DATA 	Keypress: num_2
+703.9033 	EXP 	im_5: pos = array([0.35, 0.  ])
+703.9033 	EXP 	im_5: autoDraw = True
+704.0961 	DATA 	Keypress: num_3
+704.1203 	EXP 	im_4: pos = array([0.7, 0. ])
+704.1203 	EXP 	im_4: autoDraw = True
+704.8801 	DATA 	Keypress: space
+704.8815 	EXP 	New trial (rep=0, index=41): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original027.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated027.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated027.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated027.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated027.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated027.png')])
+704.9213 	EXP 	target: autoDraw = False
+704.9213 	EXP 	im_1: autoDraw = False
+704.9213 	EXP 	im_2: autoDraw = False
+704.9213 	EXP 	im_3: autoDraw = False
+704.9213 	EXP 	im_4: autoDraw = False
+704.9213 	EXP 	im_5: autoDraw = False
+704.9213 	EXP 	frame1: autoDraw = False
+704.9213 	EXP 	frame2: autoDraw = False
+704.9213 	EXP 	frame3: autoDraw = False
+704.9213 	EXP 	frame4: autoDraw = False
+704.9213 	EXP 	frame5: autoDraw = False
+704.9213 	EXP 	f1_text: autoDraw = False
+704.9213 	EXP 	f5_text: autoDraw = False
+704.9213 	EXP 	num1: autoDraw = False
+704.9213 	EXP 	num2: autoDraw = False
+704.9213 	EXP 	num3: autoDraw = False
+704.9213 	EXP 	num4: autoDraw = False
+704.9213 	EXP 	num5: autoDraw = False
+704.9213 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original027.png'
+704.9213 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated027.png'
+704.9213 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated027.png'
+704.9213 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated027.png'
+704.9213 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated027.png'
+704.9213 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated027.png'
+704.9213 	EXP 	im_1: pos = array([-0.35, -0.3 ])
+704.9213 	EXP 	im_2: pos = array([-0.7, -0.3])
+704.9213 	EXP 	im_3: pos = array([ 0.35, -0.3 ])
+704.9213 	EXP 	im_4: pos = array([ 0. , -0.3])
+704.9213 	EXP 	im_5: pos = array([ 0.7, -0.3])
+704.9213 	EXP 	target: autoDraw = True
+704.9213 	EXP 	im_1: autoDraw = True
+704.9213 	EXP 	im_2: autoDraw = True
+704.9213 	EXP 	im_3: autoDraw = True
+704.9213 	EXP 	im_4: autoDraw = True
+704.9213 	EXP 	im_5: autoDraw = True
+704.9213 	EXP 	frame1: autoDraw = True
+704.9213 	EXP 	frame2: autoDraw = True
+704.9213 	EXP 	frame3: autoDraw = True
+704.9213 	EXP 	frame4: autoDraw = True
+704.9213 	EXP 	frame5: autoDraw = True
+704.9213 	EXP 	f1_text: autoDraw = True
+704.9213 	EXP 	f5_text: autoDraw = True
+704.9213 	EXP 	num1: autoDraw = True
+704.9213 	EXP 	num2: autoDraw = True
+704.9213 	EXP 	num3: autoDraw = True
+704.9213 	EXP 	num4: autoDraw = True
+704.9213 	EXP 	num5: autoDraw = True
+706.1922 	DATA 	Keypress: num_2
+706.2231 	EXP 	im_1: pos = array([-0.7,  0. ])
+706.2231 	EXP 	im_1: autoDraw = True
+708.8483 	DATA 	Keypress: num_5
+708.8768 	EXP 	im_5: pos = array([-0.35,  0.  ])
+708.8768 	EXP 	im_5: autoDraw = True
+711.1603 	DATA 	Keypress: num_3
+711.1964 	EXP 	im_4: pos = array([0., 0.])
+711.1964 	EXP 	im_4: autoDraw = True
+711.6961 	DATA 	Keypress: num_4
+711.7304 	EXP 	im_3: pos = array([0.35, 0.  ])
+711.7304 	EXP 	im_3: autoDraw = True
+712.3122 	DATA 	Keypress: num_1
+712.3312 	EXP 	im_2: pos = array([0.7, 0. ])
+712.3312 	EXP 	im_2: autoDraw = True
+712.9841 	DATA 	Keypress: space
+712.9855 	EXP 	New trial (rep=0, index=42): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original035.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated035.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated035.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated035.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated035.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated035.png')])
+713.0323 	EXP 	target: autoDraw = False
+713.0323 	EXP 	im_1: autoDraw = False
+713.0323 	EXP 	im_2: autoDraw = False
+713.0323 	EXP 	im_3: autoDraw = False
+713.0323 	EXP 	im_4: autoDraw = False
+713.0323 	EXP 	im_5: autoDraw = False
+713.0323 	EXP 	frame1: autoDraw = False
+713.0323 	EXP 	frame2: autoDraw = False
+713.0323 	EXP 	frame3: autoDraw = False
+713.0323 	EXP 	frame4: autoDraw = False
+713.0323 	EXP 	frame5: autoDraw = False
+713.0323 	EXP 	f1_text: autoDraw = False
+713.0323 	EXP 	f5_text: autoDraw = False
+713.0323 	EXP 	num1: autoDraw = False
+713.0323 	EXP 	num2: autoDraw = False
+713.0323 	EXP 	num3: autoDraw = False
+713.0323 	EXP 	num4: autoDraw = False
+713.0323 	EXP 	num5: autoDraw = False
+713.0323 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original035.png'
+713.0323 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated035.png'
+713.0323 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated035.png'
+713.0323 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated035.png'
+713.0323 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated035.png'
+713.0323 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated035.png'
+713.0323 	EXP 	im_1: pos = array([ 0.7, -0.3])
+713.0323 	EXP 	im_2: pos = array([-0.7, -0.3])
+713.0323 	EXP 	im_3: pos = array([ 0. , -0.3])
+713.0323 	EXP 	im_4: pos = array([-0.35, -0.3 ])
+713.0323 	EXP 	im_5: pos = array([ 0.35, -0.3 ])
+713.0323 	EXP 	target: autoDraw = True
+713.0323 	EXP 	im_1: autoDraw = True
+713.0323 	EXP 	im_2: autoDraw = True
+713.0323 	EXP 	im_3: autoDraw = True
+713.0323 	EXP 	im_4: autoDraw = True
+713.0323 	EXP 	im_5: autoDraw = True
+713.0323 	EXP 	frame1: autoDraw = True
+713.0323 	EXP 	frame2: autoDraw = True
+713.0323 	EXP 	frame3: autoDraw = True
+713.0323 	EXP 	frame4: autoDraw = True
+713.0323 	EXP 	frame5: autoDraw = True
+713.0323 	EXP 	f1_text: autoDraw = True
+713.0323 	EXP 	f5_text: autoDraw = True
+713.0323 	EXP 	num1: autoDraw = True
+713.0323 	EXP 	num2: autoDraw = True
+713.0323 	EXP 	num3: autoDraw = True
+713.0323 	EXP 	num4: autoDraw = True
+713.0323 	EXP 	num5: autoDraw = True
+714.7203 	DATA 	Keypress: num_5
+714.7512 	EXP 	im_1: pos = array([-0.7,  0. ])
+714.7512 	EXP 	im_1: autoDraw = True
+721.7212 	DATA 	Keypress: num_3
+721.7606 	EXP 	im_3: pos = array([-0.35,  0.  ])
+721.7606 	EXP 	im_3: autoDraw = True
+730.6083 	DATA 	Keypress: num_4
+730.6392 	EXP 	im_5: pos = array([0., 0.])
+730.6392 	EXP 	im_5: autoDraw = True
+731.0321 	DATA 	Keypress: num_2
+731.0564 	EXP 	im_4: pos = array([0.35, 0.  ])
+731.0564 	EXP 	im_4: autoDraw = True
+731.6801 	DATA 	Keypress: num_1
+731.7074 	EXP 	im_2: pos = array([0.7, 0. ])
+731.7074 	EXP 	im_2: autoDraw = True
+732.3121 	DATA 	Keypress: space
+732.3134 	EXP 	New trial (rep=0, index=43): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original034.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated034.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated034.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated034.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated034.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated034.png')])
+732.3581 	EXP 	target: autoDraw = False
+732.3581 	EXP 	im_1: autoDraw = False
+732.3581 	EXP 	im_2: autoDraw = False
+732.3581 	EXP 	im_3: autoDraw = False
+732.3581 	EXP 	im_4: autoDraw = False
+732.3581 	EXP 	im_5: autoDraw = False
+732.3581 	EXP 	frame1: autoDraw = False
+732.3581 	EXP 	frame2: autoDraw = False
+732.3581 	EXP 	frame3: autoDraw = False
+732.3581 	EXP 	frame4: autoDraw = False
+732.3581 	EXP 	frame5: autoDraw = False
+732.3581 	EXP 	f1_text: autoDraw = False
+732.3581 	EXP 	f5_text: autoDraw = False
+732.3581 	EXP 	num1: autoDraw = False
+732.3581 	EXP 	num2: autoDraw = False
+732.3581 	EXP 	num3: autoDraw = False
+732.3581 	EXP 	num4: autoDraw = False
+732.3581 	EXP 	num5: autoDraw = False
+732.3581 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original034.png'
+732.3581 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated034.png'
+732.3581 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated034.png'
+732.3581 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated034.png'
+732.3581 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated034.png'
+732.3581 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated034.png'
+732.3581 	EXP 	im_1: pos = array([-0.35, -0.3 ])
+732.3581 	EXP 	im_2: pos = array([ 0. , -0.3])
+732.3581 	EXP 	im_3: pos = array([-0.7, -0.3])
+732.3581 	EXP 	im_4: pos = array([ 0.35, -0.3 ])
+732.3581 	EXP 	im_5: pos = array([ 0.7, -0.3])
+732.3581 	EXP 	target: autoDraw = True
+732.3581 	EXP 	im_1: autoDraw = True
+732.3581 	EXP 	im_2: autoDraw = True
+732.3581 	EXP 	im_3: autoDraw = True
+732.3581 	EXP 	im_4: autoDraw = True
+732.3581 	EXP 	im_5: autoDraw = True
+732.3581 	EXP 	frame1: autoDraw = True
+732.3581 	EXP 	frame2: autoDraw = True
+732.3581 	EXP 	frame3: autoDraw = True
+732.3581 	EXP 	frame4: autoDraw = True
+732.3581 	EXP 	frame5: autoDraw = True
+732.3581 	EXP 	f1_text: autoDraw = True
+732.3581 	EXP 	f5_text: autoDraw = True
+732.3581 	EXP 	num1: autoDraw = True
+732.3581 	EXP 	num2: autoDraw = True
+732.3581 	EXP 	num3: autoDraw = True
+732.3581 	EXP 	num4: autoDraw = True
+732.3581 	EXP 	num5: autoDraw = True
+737.8323 	DATA 	Keypress: num_2
+737.8655 	EXP 	im_1: pos = array([-0.7,  0. ])
+737.8655 	EXP 	im_1: autoDraw = True
+738.2081 	DATA 	Keypress: num_3
+738.2327 	EXP 	im_2: pos = array([-0.35,  0.  ])
+738.2327 	EXP 	im_2: autoDraw = True
+744.1363 	DATA 	Keypress: num_1
+744.1739 	EXP 	im_3: pos = array([0., 0.])
+744.1739 	EXP 	im_3: autoDraw = True
+744.6722 	DATA 	Keypress: num_5
+744.6913 	EXP 	im_5: pos = array([0.35, 0.  ])
+744.6913 	EXP 	im_5: autoDraw = True
+745.1602 	DATA 	Keypress: num_4
+745.1920 	EXP 	im_4: pos = array([0.7, 0. ])
+745.1920 	EXP 	im_4: autoDraw = True
+745.8083 	DATA 	Keypress: space
+745.8097 	EXP 	New trial (rep=0, index=44): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original033.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated033.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated033.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated033.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated033.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated033.png')])
+745.8428 	EXP 	target: autoDraw = False
+745.8428 	EXP 	im_1: autoDraw = False
+745.8428 	EXP 	im_2: autoDraw = False
+745.8428 	EXP 	im_3: autoDraw = False
+745.8428 	EXP 	im_4: autoDraw = False
+745.8428 	EXP 	im_5: autoDraw = False
+745.8428 	EXP 	frame1: autoDraw = False
+745.8428 	EXP 	frame2: autoDraw = False
+745.8428 	EXP 	frame3: autoDraw = False
+745.8428 	EXP 	frame4: autoDraw = False
+745.8428 	EXP 	frame5: autoDraw = False
+745.8428 	EXP 	f1_text: autoDraw = False
+745.8428 	EXP 	f5_text: autoDraw = False
+745.8428 	EXP 	num1: autoDraw = False
+745.8428 	EXP 	num2: autoDraw = False
+745.8428 	EXP 	num3: autoDraw = False
+745.8428 	EXP 	num4: autoDraw = False
+745.8428 	EXP 	num5: autoDraw = False
+745.8428 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original033.png'
+745.8428 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated033.png'
+745.8428 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated033.png'
+745.8428 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated033.png'
+745.8428 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated033.png'
+745.8428 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated033.png'
+745.8428 	EXP 	im_1: pos = array([-0.35, -0.3 ])
+745.8428 	EXP 	im_2: pos = array([-0.7, -0.3])
+745.8428 	EXP 	im_3: pos = array([ 0. , -0.3])
+745.8428 	EXP 	im_4: pos = array([ 0.7, -0.3])
+745.8428 	EXP 	im_5: pos = array([ 0.35, -0.3 ])
+745.8428 	EXP 	target: autoDraw = True
+745.8428 	EXP 	im_1: autoDraw = True
+745.8428 	EXP 	im_2: autoDraw = True
+745.8428 	EXP 	im_3: autoDraw = True
+745.8428 	EXP 	im_4: autoDraw = True
+745.8428 	EXP 	im_5: autoDraw = True
+745.8428 	EXP 	frame1: autoDraw = True
+745.8428 	EXP 	frame2: autoDraw = True
+745.8428 	EXP 	frame3: autoDraw = True
+745.8428 	EXP 	frame4: autoDraw = True
+745.8428 	EXP 	frame5: autoDraw = True
+745.8428 	EXP 	f1_text: autoDraw = True
+745.8428 	EXP 	f5_text: autoDraw = True
+745.8428 	EXP 	num1: autoDraw = True
+745.8428 	EXP 	num2: autoDraw = True
+745.8428 	EXP 	num3: autoDraw = True
+745.8428 	EXP 	num4: autoDraw = True
+745.8428 	EXP 	num5: autoDraw = True
+748.3042 	DATA 	Keypress: num_2
+748.3463 	EXP 	im_1: pos = array([-0.7,  0. ])
+748.3463 	EXP 	im_1: autoDraw = True
+750.3122 	DATA 	Keypress: num_3
+750.3489 	EXP 	im_3: pos = array([-0.35,  0.  ])
+750.3489 	EXP 	im_3: autoDraw = True
+752.1682 	DATA 	Keypress: num_4
+752.2014 	EXP 	im_5: pos = array([0., 0.])
+752.2014 	EXP 	im_5: autoDraw = True
+753.0241 	DATA 	Keypress: num_1
+753.0525 	EXP 	im_2: pos = array([0.35, 0.  ])
+753.0525 	EXP 	im_2: autoDraw = True
+753.4802 	DATA 	Keypress: num_5
+753.5031 	EXP 	im_4: pos = array([0.7, 0. ])
+753.5031 	EXP 	im_4: autoDraw = True
+754.2401 	DATA 	Keypress: space
+754.2415 	EXP 	New trial (rep=0, index=45): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original036.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated036.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated036.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated036.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated036.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated036.png')])
+754.2875 	EXP 	target: autoDraw = False
+754.2875 	EXP 	im_1: autoDraw = False
+754.2875 	EXP 	im_2: autoDraw = False
+754.2875 	EXP 	im_3: autoDraw = False
+754.2875 	EXP 	im_4: autoDraw = False
+754.2875 	EXP 	im_5: autoDraw = False
+754.2875 	EXP 	frame1: autoDraw = False
+754.2875 	EXP 	frame2: autoDraw = False
+754.2875 	EXP 	frame3: autoDraw = False
+754.2875 	EXP 	frame4: autoDraw = False
+754.2875 	EXP 	frame5: autoDraw = False
+754.2875 	EXP 	f1_text: autoDraw = False
+754.2875 	EXP 	f5_text: autoDraw = False
+754.2875 	EXP 	num1: autoDraw = False
+754.2875 	EXP 	num2: autoDraw = False
+754.2875 	EXP 	num3: autoDraw = False
+754.2875 	EXP 	num4: autoDraw = False
+754.2875 	EXP 	num5: autoDraw = False
+754.2875 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original036.png'
+754.2875 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated036.png'
+754.2875 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated036.png'
+754.2875 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated036.png'
+754.2875 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated036.png'
+754.2875 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated036.png'
+754.2875 	EXP 	im_1: pos = array([-0.7, -0.3])
+754.2875 	EXP 	im_2: pos = array([ 0.7, -0.3])
+754.2875 	EXP 	im_3: pos = array([-0.35, -0.3 ])
+754.2875 	EXP 	im_4: pos = array([ 0.35, -0.3 ])
+754.2875 	EXP 	im_5: pos = array([ 0. , -0.3])
+754.2875 	EXP 	target: autoDraw = True
+754.2875 	EXP 	im_1: autoDraw = True
+754.2875 	EXP 	im_2: autoDraw = True
+754.2875 	EXP 	im_3: autoDraw = True
+754.2875 	EXP 	im_4: autoDraw = True
+754.2875 	EXP 	im_5: autoDraw = True
+754.2875 	EXP 	frame1: autoDraw = True
+754.2875 	EXP 	frame2: autoDraw = True
+754.2875 	EXP 	frame3: autoDraw = True
+754.2875 	EXP 	frame4: autoDraw = True
+754.2875 	EXP 	frame5: autoDraw = True
+754.2875 	EXP 	f1_text: autoDraw = True
+754.2875 	EXP 	f5_text: autoDraw = True
+754.2875 	EXP 	num1: autoDraw = True
+754.2875 	EXP 	num2: autoDraw = True
+754.2875 	EXP 	num3: autoDraw = True
+754.2875 	EXP 	num4: autoDraw = True
+754.2875 	EXP 	num5: autoDraw = True
+755.6724 	DATA 	Keypress: num_1
+755.7061 	EXP 	im_1: pos = array([-0.7,  0. ])
+755.7061 	EXP 	im_1: autoDraw = True
+759.1123 	DATA 	Keypress: num_3
+759.1440 	EXP 	im_5: pos = array([-0.35,  0.  ])
+759.1440 	EXP 	im_5: autoDraw = True
+759.9921 	DATA 	Keypress: num_2
+760.0119 	EXP 	im_3: pos = array([0., 0.])
+760.0119 	EXP 	im_3: autoDraw = True
+762.4162 	DATA 	Keypress: num_5
+762.4486 	EXP 	im_2: pos = array([0.35, 0.  ])
+762.4486 	EXP 	im_2: autoDraw = True
+763.4242 	DATA 	Keypress: num_4
+763.4498 	EXP 	im_4: pos = array([0.7, 0. ])
+763.4498 	EXP 	im_4: autoDraw = True
+764.0722 	DATA 	Keypress: space
+764.0736 	EXP 	New trial (rep=0, index=46): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original017.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated017.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated017.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated017.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated017.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated017.png')])
+764.1174 	EXP 	target: autoDraw = False
+764.1174 	EXP 	im_1: autoDraw = False
+764.1174 	EXP 	im_2: autoDraw = False
+764.1174 	EXP 	im_3: autoDraw = False
+764.1174 	EXP 	im_4: autoDraw = False
+764.1174 	EXP 	im_5: autoDraw = False
+764.1174 	EXP 	frame1: autoDraw = False
+764.1174 	EXP 	frame2: autoDraw = False
+764.1174 	EXP 	frame3: autoDraw = False
+764.1174 	EXP 	frame4: autoDraw = False
+764.1174 	EXP 	frame5: autoDraw = False
+764.1174 	EXP 	f1_text: autoDraw = False
+764.1174 	EXP 	f5_text: autoDraw = False
+764.1174 	EXP 	num1: autoDraw = False
+764.1174 	EXP 	num2: autoDraw = False
+764.1174 	EXP 	num3: autoDraw = False
+764.1174 	EXP 	num4: autoDraw = False
+764.1174 	EXP 	num5: autoDraw = False
+764.1174 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original017.png'
+764.1174 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated017.png'
+764.1174 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated017.png'
+764.1174 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated017.png'
+764.1174 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated017.png'
+764.1174 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated017.png'
+764.1174 	EXP 	im_1: pos = array([-0.35, -0.3 ])
+764.1174 	EXP 	im_2: pos = array([ 0.35, -0.3 ])
+764.1174 	EXP 	im_3: pos = array([-0.7, -0.3])
+764.1174 	EXP 	im_4: pos = array([ 0.7, -0.3])
+764.1174 	EXP 	im_5: pos = array([ 0. , -0.3])
+764.1174 	EXP 	target: autoDraw = True
+764.1174 	EXP 	im_1: autoDraw = True
+764.1174 	EXP 	im_2: autoDraw = True
+764.1174 	EXP 	im_3: autoDraw = True
+764.1174 	EXP 	im_4: autoDraw = True
+764.1174 	EXP 	im_5: autoDraw = True
+764.1174 	EXP 	frame1: autoDraw = True
+764.1174 	EXP 	frame2: autoDraw = True
+764.1174 	EXP 	frame3: autoDraw = True
+764.1174 	EXP 	frame4: autoDraw = True
+764.1174 	EXP 	frame5: autoDraw = True
+764.1174 	EXP 	f1_text: autoDraw = True
+764.1174 	EXP 	f5_text: autoDraw = True
+764.1174 	EXP 	num1: autoDraw = True
+764.1174 	EXP 	num2: autoDraw = True
+764.1174 	EXP 	num3: autoDraw = True
+764.1174 	EXP 	num4: autoDraw = True
+764.1174 	EXP 	num5: autoDraw = True
+765.9202 	DATA 	Keypress: num_2
+765.9531 	EXP 	im_1: pos = array([-0.7,  0. ])
+765.9531 	EXP 	im_1: autoDraw = True
+771.4323 	DATA 	Keypress: num_4
+771.4606 	EXP 	im_2: pos = array([-0.35,  0.  ])
+771.4606 	EXP 	im_2: autoDraw = True
+772.0961 	DATA 	Keypress: num_5
+772.1281 	EXP 	im_4: pos = array([0., 0.])
+772.1281 	EXP 	im_4: autoDraw = True
+773.5922 	DATA 	Keypress: num_1
+773.6301 	EXP 	im_3: pos = array([0.35, 0.  ])
+773.6301 	EXP 	im_3: autoDraw = True
+774.7203 	DATA 	Keypress: num_3
+774.7482 	EXP 	im_5: pos = array([0.7, 0. ])
+774.7482 	EXP 	im_5: autoDraw = True
+775.3923 	DATA 	Keypress: space
+775.3937 	EXP 	New trial (rep=0, index=47): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original032.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated032.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated032.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated032.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated032.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated032.png')])
+775.4325 	EXP 	target: autoDraw = False
+775.4325 	EXP 	im_1: autoDraw = False
+775.4325 	EXP 	im_2: autoDraw = False
+775.4325 	EXP 	im_3: autoDraw = False
+775.4325 	EXP 	im_4: autoDraw = False
+775.4325 	EXP 	im_5: autoDraw = False
+775.4325 	EXP 	frame1: autoDraw = False
+775.4325 	EXP 	frame2: autoDraw = False
+775.4325 	EXP 	frame3: autoDraw = False
+775.4325 	EXP 	frame4: autoDraw = False
+775.4325 	EXP 	frame5: autoDraw = False
+775.4325 	EXP 	f1_text: autoDraw = False
+775.4325 	EXP 	f5_text: autoDraw = False
+775.4325 	EXP 	num1: autoDraw = False
+775.4325 	EXP 	num2: autoDraw = False
+775.4325 	EXP 	num3: autoDraw = False
+775.4325 	EXP 	num4: autoDraw = False
+775.4325 	EXP 	num5: autoDraw = False
+775.4325 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original032.png'
+775.4325 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated032.png'
+775.4325 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated032.png'
+775.4325 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated032.png'
+775.4325 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated032.png'
+775.4325 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated032.png'
+775.4325 	EXP 	im_1: pos = array([-0.7, -0.3])
+775.4325 	EXP 	im_2: pos = array([ 0.7, -0.3])
+775.4325 	EXP 	im_3: pos = array([ 0. , -0.3])
+775.4325 	EXP 	im_4: pos = array([-0.35, -0.3 ])
+775.4325 	EXP 	im_5: pos = array([ 0.35, -0.3 ])
+775.4325 	EXP 	target: autoDraw = True
+775.4325 	EXP 	im_1: autoDraw = True
+775.4325 	EXP 	im_2: autoDraw = True
+775.4325 	EXP 	im_3: autoDraw = True
+775.4325 	EXP 	im_4: autoDraw = True
+775.4325 	EXP 	im_5: autoDraw = True
+775.4325 	EXP 	frame1: autoDraw = True
+775.4325 	EXP 	frame2: autoDraw = True
+775.4325 	EXP 	frame3: autoDraw = True
+775.4325 	EXP 	frame4: autoDraw = True
+775.4325 	EXP 	frame5: autoDraw = True
+775.4325 	EXP 	f1_text: autoDraw = True
+775.4325 	EXP 	f5_text: autoDraw = True
+775.4325 	EXP 	num1: autoDraw = True
+775.4325 	EXP 	num2: autoDraw = True
+775.4325 	EXP 	num3: autoDraw = True
+775.4325 	EXP 	num4: autoDraw = True
+775.4325 	EXP 	num5: autoDraw = True
+777.2003 	DATA 	Keypress: num_1
+777.2349 	EXP 	im_1: pos = array([-0.7,  0. ])
+777.2349 	EXP 	im_1: autoDraw = True
+786.0803 	DATA 	Keypress: num_5
+786.1135 	EXP 	im_2: pos = array([-0.35,  0.  ])
+786.1135 	EXP 	im_2: autoDraw = True
+787.3762 	DATA 	Keypress: num_4
+787.4153 	EXP 	im_5: pos = array([0., 0.])
+787.4153 	EXP 	im_5: autoDraw = True
+789.1283 	DATA 	Keypress: num_3
+789.1675 	EXP 	im_3: pos = array([0.35, 0.  ])
+789.1675 	EXP 	im_3: autoDraw = True
+789.3600 	DATA 	Keypress: num_2
+789.3847 	EXP 	im_4: pos = array([0.7, 0. ])
+789.3847 	EXP 	im_4: autoDraw = True
+790.0721 	DATA 	Keypress: space
+790.0734 	EXP 	New trial (rep=0, index=48): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original019.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated019.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated019.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated019.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated019.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated019.png')])
+790.1189 	EXP 	target: autoDraw = False
+790.1189 	EXP 	im_1: autoDraw = False
+790.1189 	EXP 	im_2: autoDraw = False
+790.1189 	EXP 	im_3: autoDraw = False
+790.1189 	EXP 	im_4: autoDraw = False
+790.1189 	EXP 	im_5: autoDraw = False
+790.1189 	EXP 	frame1: autoDraw = False
+790.1189 	EXP 	frame2: autoDraw = False
+790.1189 	EXP 	frame3: autoDraw = False
+790.1189 	EXP 	frame4: autoDraw = False
+790.1189 	EXP 	frame5: autoDraw = False
+790.1189 	EXP 	f1_text: autoDraw = False
+790.1189 	EXP 	f5_text: autoDraw = False
+790.1189 	EXP 	num1: autoDraw = False
+790.1189 	EXP 	num2: autoDraw = False
+790.1189 	EXP 	num3: autoDraw = False
+790.1189 	EXP 	num4: autoDraw = False
+790.1189 	EXP 	num5: autoDraw = False
+790.1189 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original019.png'
+790.1189 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated019.png'
+790.1189 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated019.png'
+790.1189 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated019.png'
+790.1189 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated019.png'
+790.1189 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated019.png'
+790.1189 	EXP 	im_1: pos = array([-0.7, -0.3])
+790.1189 	EXP 	im_2: pos = array([ 0. , -0.3])
+790.1189 	EXP 	im_3: pos = array([ 0.35, -0.3 ])
+790.1189 	EXP 	im_4: pos = array([-0.35, -0.3 ])
+790.1189 	EXP 	im_5: pos = array([ 0.7, -0.3])
+790.1189 	EXP 	target: autoDraw = True
+790.1189 	EXP 	im_1: autoDraw = True
+790.1189 	EXP 	im_2: autoDraw = True
+790.1189 	EXP 	im_3: autoDraw = True
+790.1189 	EXP 	im_4: autoDraw = True
+790.1189 	EXP 	im_5: autoDraw = True
+790.1189 	EXP 	frame1: autoDraw = True
+790.1189 	EXP 	frame2: autoDraw = True
+790.1189 	EXP 	frame3: autoDraw = True
+790.1189 	EXP 	frame4: autoDraw = True
+790.1189 	EXP 	frame5: autoDraw = True
+790.1189 	EXP 	f1_text: autoDraw = True
+790.1189 	EXP 	f5_text: autoDraw = True
+790.1189 	EXP 	num1: autoDraw = True
+790.1189 	EXP 	num2: autoDraw = True
+790.1189 	EXP 	num3: autoDraw = True
+790.1189 	EXP 	num4: autoDraw = True
+790.1189 	EXP 	num5: autoDraw = True
+793.3282 	DATA 	Keypress: num_1
+793.3566 	EXP 	im_1: pos = array([-0.7,  0. ])
+793.3566 	EXP 	im_1: autoDraw = True
+794.2241 	DATA 	Keypress: num_3
+794.2578 	EXP 	im_2: pos = array([-0.35,  0.  ])
+794.2578 	EXP 	im_2: autoDraw = True
+797.9282 	DATA 	Keypress: num_4
+797.9628 	EXP 	im_3: pos = array([0., 0.])
+797.9628 	EXP 	im_3: autoDraw = True
+798.3761 	DATA 	Keypress: num_2
+798.3967 	EXP 	im_4: pos = array([0.35, 0.  ])
+798.3967 	EXP 	im_4: autoDraw = True
+799.1121 	DATA 	Keypress: num_5
+799.1310 	EXP 	im_5: pos = array([0.7, 0. ])
+799.1310 	EXP 	im_5: autoDraw = True
+799.7442 	DATA 	Keypress: space
+799.7455 	EXP 	New trial (rep=0, index=49): OrderedDict([('targetStim', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original021.png'), ('stimOne', 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated021.png'), ('stimTwo', 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated021.png'), ('stimThree', 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated021.png'), ('stimFour', 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated021.png'), ('stimFive', 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated021.png')])
+799.7819 	EXP 	target: autoDraw = False
+799.7819 	EXP 	im_1: autoDraw = False
+799.7819 	EXP 	im_2: autoDraw = False
+799.7819 	EXP 	im_3: autoDraw = False
+799.7819 	EXP 	im_4: autoDraw = False
+799.7819 	EXP 	im_5: autoDraw = False
+799.7819 	EXP 	frame1: autoDraw = False
+799.7819 	EXP 	frame2: autoDraw = False
+799.7819 	EXP 	frame3: autoDraw = False
+799.7819 	EXP 	frame4: autoDraw = False
+799.7819 	EXP 	frame5: autoDraw = False
+799.7819 	EXP 	f1_text: autoDraw = False
+799.7819 	EXP 	f5_text: autoDraw = False
+799.7819 	EXP 	num1: autoDraw = False
+799.7819 	EXP 	num2: autoDraw = False
+799.7819 	EXP 	num3: autoDraw = False
+799.7819 	EXP 	num4: autoDraw = False
+799.7819 	EXP 	num5: autoDraw = False
+799.7819 	EXP 	target: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_original021.png'
+799.7819 	EXP 	im_1: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-02_generated021.png'
+799.7819 	EXP 	im_2: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-05_generated021.png'
+799.7819 	EXP 	im_3: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-10_generated021.png'
+799.7819 	EXP 	im_4: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-20_generated021.png'
+799.7819 	EXP 	im_5: image = 'stimuli/filters-64_resnets-3_logmixes-12_latents-40_generated021.png'
+799.7819 	EXP 	im_1: pos = array([ 0.7, -0.3])
+799.7819 	EXP 	im_2: pos = array([-0.7, -0.3])
+799.7819 	EXP 	im_3: pos = array([ 0.35, -0.3 ])
+799.7819 	EXP 	im_4: pos = array([-0.35, -0.3 ])
+799.7819 	EXP 	im_5: pos = array([ 0. , -0.3])
+799.7819 	EXP 	target: autoDraw = True
+799.7819 	EXP 	im_1: autoDraw = True
+799.7819 	EXP 	im_2: autoDraw = True
+799.7819 	EXP 	im_3: autoDraw = True
+799.7819 	EXP 	im_4: autoDraw = True
+799.7819 	EXP 	im_5: autoDraw = True
+799.7819 	EXP 	frame1: autoDraw = True
+799.7819 	EXP 	frame2: autoDraw = True
+799.7819 	EXP 	frame3: autoDraw = True
+799.7819 	EXP 	frame4: autoDraw = True
+799.7819 	EXP 	frame5: autoDraw = True
+799.7819 	EXP 	f1_text: autoDraw = True
+799.7819 	EXP 	f5_text: autoDraw = True
+799.7819 	EXP 	num1: autoDraw = True
+799.7819 	EXP 	num2: autoDraw = True
+799.7819 	EXP 	num3: autoDraw = True
+799.7819 	EXP 	num4: autoDraw = True
+799.7819 	EXP 	num5: autoDraw = True
+801.5523 	DATA 	Keypress: num_5
+801.5844 	EXP 	im_1: pos = array([-0.7,  0. ])
+801.5844 	EXP 	im_1: autoDraw = True
+805.4324 	DATA 	Keypress: num_1
+805.4729 	EXP 	im_2: pos = array([-0.35,  0.  ])
+805.4729 	EXP 	im_2: autoDraw = True
+806.6803 	DATA 	Keypress: num_3
+806.7078 	EXP 	im_5: pos = array([0., 0.])
+806.7078 	EXP 	im_5: autoDraw = True
+809.5923 	DATA 	Keypress: num_4
+809.6285 	EXP 	im_3: pos = array([0.35, 0.  ])
+809.6285 	EXP 	im_3: autoDraw = True
+809.9121 	DATA 	Keypress: num_2
+809.9456 	EXP 	im_4: pos = array([0.7, 0. ])
+809.9456 	EXP 	im_4: autoDraw = True
+810.4961 	DATA 	Keypress: space
+810.5129 	EXP 	target: autoDraw = False
+810.5129 	EXP 	im_1: autoDraw = False
+810.5129 	EXP 	im_2: autoDraw = False
+810.5129 	EXP 	im_3: autoDraw = False
+810.5129 	EXP 	im_4: autoDraw = False
+810.5129 	EXP 	im_5: autoDraw = False
+810.5129 	EXP 	frame1: autoDraw = False
+810.5129 	EXP 	frame2: autoDraw = False
+810.5129 	EXP 	frame3: autoDraw = False
+810.5129 	EXP 	frame4: autoDraw = False
+810.5129 	EXP 	frame5: autoDraw = False
+810.5129 	EXP 	f1_text: autoDraw = False
+810.5129 	EXP 	f5_text: autoDraw = False
+810.5129 	EXP 	num1: autoDraw = False
+810.5129 	EXP 	num2: autoDraw = False
+810.5129 	EXP 	num3: autoDraw = False
+810.5129 	EXP 	num4: autoDraw = False
+810.5129 	EXP 	num5: autoDraw = False
+810.5129 	EXP 	endText: autoDraw = True
+812.8093 	EXP 	window1: mouseVisible = True
